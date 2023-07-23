@@ -1,0 +1,74 @@
+[ @file = "C:\Users\redwin\Documents\REPOS\iWorkout\source\iWorkoutApp.mc"; @line = 1; ]
+import Toybox.Application;
+[ @file = "C:\Users\redwin\Documents\REPOS\iWorkout\source\iWorkoutApp.mc"; @line = 2; ]
+import Toybox.Lang;
+[ @file = "C:\Users\redwin\Documents\REPOS\iWorkout\source\iWorkoutApp.mc"; @line = 3; ]
+import Toybox.WatchUi;
+[ @file = "C:\Users\redwin\Documents\REPOS\iWorkout\source\iWorkoutApp.mc"; @line = 5; ]
+class iWorkoutApp extends Application.AppBase{
+    [ @file = "C:\Users\redwin\Documents\REPOS\iWorkout\source\iWorkoutApp.mc"; @line = 5; ]
+    <init> {
+    }
+    [ @file = "C:\Users\redwin\Documents\REPOS\iWorkout\source\iWorkoutApp.mc"; @line = 5; ]
+    static
+    <init> {
+    }
+    [ @file = "C:\Users\redwin\Documents\REPOS\iWorkout\source\iWorkoutApp.mc"; @line = 7; ]
+    function initialize() as Void {
+C_Users_redwin_Documents_REPOS_iWorkout_source_iWorkoutApp_mc_7_26_start:
+[ "C:\Users\redwin\Documents\REPOS\iWorkout\source\iWorkoutApp.mc" 8 8 ]
+        %tmp.2 = getv ? :AppBase;
+        %tmp.3 = getv function %tmp.2 :initialize;
+        invoke %tmp.2 %tmp.3();
+C_Users_redwin_Documents_REPOS_iWorkout_source_iWorkoutApp_mc_7_26_stop:
+    }
+    [ @file = "C:\Users\redwin\Documents\REPOS\iWorkout\source\iWorkoutApp.mc"; @line = 12; ]
+    function onStart(state as Dictionary or Null) as Void {
+    }
+    [ @file = "C:\Users\redwin\Documents\REPOS\iWorkout\source\iWorkoutApp.mc"; @line = 16; ]
+    function onStop(state as Dictionary or Null) as Void {
+    }
+    [ @file = "C:\Users\redwin\Documents\REPOS\iWorkout\source\iWorkoutApp.mc"; @line = 20; ]
+    function getInitialView() as Array<Views or InputDelegates> or Null {
+C_Users_redwin_Documents_REPOS_iWorkout_source_iWorkoutApp_mc_20_65_start:
+[ "C:\Users\redwin\Documents\REPOS\iWorkout\source\iWorkoutApp.mc" 24 8 ]
+        [ "C_Users_redwin_Documents_REPOS_iWorkout_source_iWorkoutApp_mc_20_65_start" "C_Users_redwin_Documents_REPOS_iWorkout_source_iWorkoutApp_mc_20_65_stop" ]
+        %view.1 = local;
+        %tmp.4 = getm $;
+        %tmp.5 = getv %tmp.4 :iWorkoutView;
+        %tmp.1 = newc %tmp.5 ();
+        lputv %view.1 %tmp.1;
+[ "C:\Users\redwin\Documents\REPOS\iWorkout\source\iWorkoutApp.mc" 25 8 ]
+        [ "C_Users_redwin_Documents_REPOS_iWorkout_source_iWorkoutApp_mc_20_65_start" "C_Users_redwin_Documents_REPOS_iWorkout_source_iWorkoutApp_mc_20_65_stop" ]
+        %delegate.2 = local;
+        %tmp.9 = getm $;
+        %tmp.10 = getv %tmp.9 :iWorkoutDelegate;
+        %tmp.12 = lgetv %view.1;
+        %tmp.6 = newc %tmp.10 (%tmp.12);
+        lputv %delegate.2 %tmp.6;
+[ "C:\Users\redwin\Documents\REPOS\iWorkout\source\iWorkoutApp.mc" 26 8 ]
+        %tmp.13 = newa Array<Views or InputDelegates> 2;
+        %tmp.15 = lgetv %view.1;
+        %tmp.16 = dup %tmp.13;
+        %tmp.17 = aputv %tmp.16 0 %tmp.15;
+        %tmp.19 = lgetv %delegate.2;
+        %tmp.20 = dup %tmp.17;
+        %tmp.21 = aputv %tmp.20 1 %tmp.19;
+        ret %tmp.21;
+C_Users_redwin_Documents_REPOS_iWorkout_source_iWorkoutApp_mc_20_65_stop:
+    }
+}
+[ @file = "C:\Users\redwin\Documents\REPOS\iWorkout\source\iWorkoutApp.mc"; @line = 31; ]
+function getApp() as iWorkoutApp {
+C_Users_redwin_Documents_REPOS_iWorkout_source_iWorkoutApp_mc_31_33_start:
+[ "C:\Users\redwin\Documents\REPOS\iWorkout\source\iWorkoutApp.mc" 32 4 ]
+    %tmp.1 = getm $.Toybox.Application;
+    %tmp.2 = getv function %tmp.1 :getApp;
+    %tmp.3 = invoke %tmp.1 %tmp.2();
+    %tmp.4 = as %tmp.3 iWorkoutApp;
+    ret %tmp.4;
+C_Users_redwin_Documents_REPOS_iWorkout_source_iWorkoutApp_mc_31_33_stop:
+}
+[ @file = "C:\Users\redwin\Documents\REPOS\iWorkout\source\iWorkoutApp.mc"; @line = 1; ]
+<init> {
+}
