@@ -4,12 +4,12 @@ import Toybox.Timer;
 import Toybox.Sensor;
 import Toybox.WatchUi;
 
-class iWorkoutView extends WatchUi.View {
+class iWorkoutView2 extends WatchUi.View {
 
     //LOAD TIMER GLOBALS FOR THIS VIEW
     private var _timer1 as Timer.Timer?;  //OPTIONAL VARIABLE FOR STOPTIMER()
     private var DEFAULT_TIMER_LENGTH as Number = 1;
-    private var _count1 as Number = (5 * DEFAULT_TIMER_LENGTH);
+    private var _count1 as Number = (10 * DEFAULT_TIMER_LENGTH);
 
     //HR MONITOR GLOBALS
     private var _hrString as String;
@@ -31,8 +31,8 @@ class iWorkoutView extends WatchUi.View {
     }
 
     public function moveToNewView() as Void {
-        var view2 = new $.iWorkoutView2();
-        WatchUi.switchToView(view2, new $.iWorkoutMenuDelegate(), WatchUi.SLIDE_UP);
+        var view3 = new $.iWorkoutView3();
+        WatchUi.switchToView(view3, new $.iWorkoutMenuDelegate(), WatchUi.SLIDE_UP);
     }
 
     // STOP THE TIMER

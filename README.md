@@ -39,4 +39,4 @@ Update Log:
 
 7/23/23:  Added a timer and a heart rate sensor.  Achievements unlocked:  MonkeyC API and the ConnectIQ simulator are getting easier to work with.  Learned how to use the manifest. Learned about Callback functions.  Learned abbout formatting strings of numbers using "%02d" Next Steps:  Pay attention to creating re-usable code.  Figure out how to make multiple views and thread them together.  Figure out a menu system.  Create a randomization process for exercises.    
 
-
+7/23/23:  Added multiple timers to cycle through.  When the timer hits 0, it moves to the next timer.  Achievements unlocked:  Plugging memory leaks by stopping the timers.  Getting more familiar with WatchUi.  Next steps:  Create indices so that multiple files are not needed and can swap through different conditions.  
