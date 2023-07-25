@@ -20,10 +20,9 @@ class iWorkoutApp extends Application.AppBase {
     function getInitialView() as Array<Views or InputDelegates>? {
         
 
-        //ADD VARIABLES
+        //VARIABLES
         var view = new $.iWorkoutView();
-        var delegate = new $.iWorkoutDelegate(view);
-        return [view, delegate] as Array<Views or InputDelegates>;    
+        return [view] as Array<Views>;    
     }
 
 }

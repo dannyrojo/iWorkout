@@ -2,43 +2,41 @@ import Toybox.Graphics;
 import Toybox.Lang;
 import Toybox.Timer;
 import Toybox.Sensor;
+import Toybox.Attention;
 import Toybox.Math;
 import Toybox.System;
 import Toybox.WatchUi;
+import Toybox.UserProfile;
 
 class iWorkoutView extends WatchUi.View {
 
-    //OPTIONAL VARIABLES
-    private var _timer1 as Timer.Timer?;  
-    private var _hrString as String?;
-    //CREATE COUNT VARIABLE
+    //VARIABLE DECLARATIONS
+    private var _timer1 as Timer.Timer;  
+    private var _hrString as String;
     private var _count1 as Number = 0;
-    //CREATE TOTAL DURATION VARIABLES
     private var totalDuration as Number = 0;
-    //CREATE CURRENT EXERCISE VARIABLE
     private var currentExercise as String = "Get Ready!";
+    private var vibeData;
+    private var zoneData as Array<Number>;
+    private var currentZone as Number = 0;
+    private var previousZone as Number = 0;
+    private var heartRate as Number = 0;
     
     //CREATE INDEX: TIMERVALUES
-    private var timerValues as Array<Number> = [1, 3, 5, 6];
+    private var timerValues as Array<Number> = [60, 90, 120, 180];
 
     //CREATE INDEX: EXERCISES
     private var exerciseType as Array<String> = [
-        "Running in Place",
-        "Jumping Jacks",
-        "Crunches",
-        "Planking",
+        "Run in Place",
+        "Jumping Jack",
+        "Crunch",
+        "Plank",
+        "Push-up",
+        "Squat",
+        "Bicycles"
     ];
     
-    
-
-    //ONMENU STOPTIMER FUNCTION
-    public function stopTimer() as Void {
-        if (_timer1 != null) {
-            _timer1.stop();
-        }
-    }    
-    
-    //CALLBACK FUNCTION
+    //TIMER CALLBACK
     public function callback1() as Void {
         //IF THE COUNTDOWN ENDS
         if (_count1 <= 0){
@@ -46,86 +44,139 @@ class iWorkoutView extends WatchUi.View {
             //STOP THE TIMER
             _timer1.stop();
             
-            //AND IF THE TIME PASSED IS MAX
-            if (totalDuration >= 50){
-                //STOP THE WORKOUT
-
-
-            }else {
-                //RANDOM INDEX: timerValues
+            //AND IF THE DURATION IS MAXED STOP THE WORKOUT
+            if (totalDuration >= 1800){
+                //NOTHING
+                }
+            
+            //OTHERWISE START A NEW ITERATION
+            else {
+                //CREATE A RANDOM INDEX FOR TIMER VALUES
                 var randomFloat = Math.rand();
                 var scaledNumber = 0 + randomFloat / (0x7FFFFFFF / (timerValues.size()) - 0 + 1 + 1);
                 var randomIndex = Math.round(scaledNumber);
+                
+                //SET THE TIMER VALUE FOR THIS ITERATION
+                _count1 = timerValues[randomIndex];
+                
+                // AND ADD IT UP TO THE TOTAL
+                totalDuration += timerValues[randomIndex];
 
-                //RANDOM INDEX: exerciseType
+                //THEN CREATE A RANDOM INDEX FOR EXERCISE TYPES
                 var randomFloat2 = Math.rand();
                 var scaledNumber2 = 0 + randomFloat2 / (0x7FFFFFFF / (exerciseType.size()) - 0 + 1 + 1);
                 var randomIndex2 = Math.round(scaledNumber2);
+                
+                //AND SET THE CURRENT EXERCISE FOR THIS ITERATION
                 currentExercise = exerciseType[randomIndex2];
                 
-                //ADD UP THE TOTALDURATION
-                totalDuration += timerValues[randomIndex];
+                //START THE TIMER THE TIMER UP AGAIN
+                _timer1.start(method(:callback1), 1000, true);} 
                 
                 //DEBUGGING
-                System.println(randomIndex);
-                System.println(totalDuration);
-
-                //SET COUNT
-                _count1 = timerValues[randomIndex];
-
-                //RESTART THE TIMER
-                _timer1.start(method(:callback1), 1000, true);} 
-        
-        
+                //System.println(randomIndex);
+                //System.println(totalDuration);
+                
+        //AND IF THE COUNTDOWN IS STILL GOING
         }else {
             //COUNTDOWN
             _count1--;
-
-            //UPDATE VIEW
+            
+            //AND UPDATE
             WatchUi.requestUpdate();
         }
     }
 
-    //SENSOR STUFF
+    //HEARTRATE CALLBACK
     public function onSnsr(sensorInfo as Info) as Void {
-        var heartRate = sensorInfo.heartRate;
+        //GRAB THE HEARTRATE
+        heartRate = sensorInfo.heartRate;
+        
+        //AND IF THE HEARTRATE ISN'T NULL
         if (heartRate != null) {
+            
+            //CONVERT AND ASSIGN THE STRING
             _hrString = heartRate.toString() + "bpm";
-        } else {
+
+            //AND DETERMINE THE HEARTRATE ZONE
+            getZone();
+            System.println(currentZone); //DEBUGGING
+        }
+        //OTHERWISE PRINT THE DEFAULT
+        else {
             _hrString = "---bpm";
         }
+
+        //THEN UPDATE
         WatchUi.requestUpdate();
     }
 
+    //DETERMINE THE HRZONE
+    public function getZone(){
+
+        //IF THE HEARTRATE ISN'T NULL AND ZONEDATA ISN'T NULL
+        if (heartRate != null && zoneData != null){
+
+        //THEN ITERATE THROUGH THE ZONEDATA TO FIND THE CURRENT ZONE    
+            for (var i = 0; i < zoneData.size()-1; i++){
+                if (heartRate > zoneData[i] && heartRate <= zoneData[i+1]){
+                    currentZone = i+ 1;
+                    break;
+                }
+            }
+            //UNLESS THE HEART RATE IS OUT OF ZONE (MAY NEED TO UPDATE WITH LOW END)
+            if (heartRate > zoneData[zoneData.size()-1] ){
+                currentZone = zoneData.size();
+            }
+        }
+        //VIBRATE ON HR CHANGE
+        checkZoneChange();
+        //AND FINALLY UPDATE
+        WatchUi.requestUpdate();
+    }
+
+    //VIBRATE ON ZONE CHANGE
+    public function checkZoneChange() as Void {
+        if (currentZone != previousZone) {
+	        vibeData = [];
+	        for (var i = 0; i < currentZone; i++){
+		        vibeData.add(new Attention.VibeProfile(75,100));
+	        }
+	    Attention.vibrate(vibeData);
+	    previousZone = currentZone;
+        }
+    }
+    
     //INITALIZE
     function initialize() {
         
-        //INITIALIZE SUPERCLASS
-        View.initialize();
-        
-        //SET INITIAL COUNTDOWN VALUE
+        //SET UP DEFAULT DEFINITIONS (MAY BE REDUNDANT)
         //_count1 = 0;
-
-        //DEFAULT STRING: HEARTRATE
         _hrString = "---bpm";  
-
-        //DEFAULT STRING: EXERCISETYPE
         currentExercise = "Get Ready!";
 
-        //ENABLE SENSORS: HEARTRATE
+        //INITIALIZE SUPERCLASS
+        View.initialize();
+       
+        //GET HEARTRATE ZONES
+        zoneData = UserProfile.getHeartRateZones(UserProfile.HR_ZONE_SPORT_GENERIC);
+        System.println(zoneData); //DEBUGGING
+        
+        //ENABLE SENSORS EVENTS
         Sensor.setEnabledSensors([Sensor.SENSOR_HEARTRATE] as Array<SensorType>);
         Sensor.enableSensorEvents(method(:onSnsr));
 
-        //CREATE TIMER
+        //START THE TIMER
         var timer1 = new Timer.Timer();
         timer1.start(method(:callback1), 1000, true);
         _timer1 = timer1;
+
     }
 
     
     //LOAD RESOURCES
     function onLayout(dc as Dc) as Void {
-        setLayout(Rez.Layouts.MainLayout(dc));    
+           
     }
 
     // Called when this View is brought to the foreground. Restore
@@ -160,6 +211,7 @@ class iWorkoutView extends WatchUi.View {
         //DRAW THE CURRENT EXERCISE STRING
         dc.setColor(Graphics.COLOR_WHITE, Graphics.COLOR_TRANSPARENT);
         dc.drawText(dc.getWidth()/2, 60, Graphics.FONT_LARGE, currentExercise, Graphics.TEXT_JUSTIFY_CENTER);
+
     }
  
 

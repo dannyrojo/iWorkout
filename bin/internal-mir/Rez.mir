@@ -45,7 +45,7 @@ module Rez {
 C_Users_redwin_Documents_REPOS_iWorkout_bin_gen_006_B2700_00_source_Rez_mcgen_20_74_start:
 [ "C:\Users\redwin\Documents\REPOS\iWorkout\bin\gen\006-B2700-00\source\Rez.mcgen" 21 12 ]
             [ "C_Users_redwin_Documents_REPOS_iWorkout_bin_gen_006_B2700_00_source_Rez_mcgen_20_74_start" "C_Users_redwin_Documents_REPOS_iWorkout_bin_gen_006_B2700_00_source_Rez_mcgen_20_74_stop" ]
-            %rez_cmp_local_text_9964874928.1 = local;
+            %rez_cmp_local_text_1503364961.1 = local;
             %tmp.3 = getm $.Toybox.WatchUi;
             %tmp.4 = getv function ? %tmp.3 :Text;
             %tmp.5 = newd 6;
@@ -82,7 +82,7 @@ C_Users_redwin_Documents_REPOS_iWorkout_bin_gen_006_B2700_00_source_Rez_mcgen_20
             %tmp.42 = dup %tmp.37;
             %tmp.43 = aputv %tmp.42 %tmp.39 %tmp.41;
             %tmp.1 = newc %tmp.4 (%tmp.43);
-            lputv %rez_cmp_local_text_9964874928.1 %tmp.1;
+            lputv %rez_cmp_local_text_1503364961.1 %tmp.1;
 [ "C:\Users\redwin\Documents\REPOS\iWorkout\bin\gen\006-B2700-00\source\Rez.mcgen" 23 12 ]
             [ "C_Users_redwin_Documents_REPOS_iWorkout_bin_gen_006_B2700_00_source_Rez_mcgen_20_74_start" "C_Users_redwin_Documents_REPOS_iWorkout_bin_gen_006_B2700_00_source_Rez_mcgen_20_74_stop" ]
             %rez_cmp_local_bitmap_id_monkey.2 = local;
@@ -125,7 +125,7 @@ C_Users_redwin_Documents_REPOS_iWorkout_bin_gen_006_B2700_00_source_Rez_mcgen_20
             invoke %tmp.73 %tmp.74(%tmp.80, %tmp.82);
 [ "C:\Users\redwin\Documents\REPOS\iWorkout\bin\gen\006-B2700-00\source\Rez.mcgen" 26 12 ]
             %tmp.83 = newa Array<WatchUi.Drawable> 2;
-            %tmp.85 = lgetv %rez_cmp_local_text_9964874928.1;
+            %tmp.85 = lgetv %rez_cmp_local_text_1503364961.1;
             %tmp.86 = dup %tmp.83;
             %tmp.87 = aputv %tmp.86 0 %tmp.85;
             %tmp.89 = lgetv %rez_cmp_local_bitmap_id_monkey.2;

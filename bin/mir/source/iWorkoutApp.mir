@@ -39,35 +39,24 @@ C_Users_redwin_Documents_REPOS_iWorkout_source_iWorkoutApp_mc_20_65_start:
         %tmp.1 = newc %tmp.5 ();
         lputv %view.1 %tmp.1;
 [ "C:\Users\redwin\Documents\REPOS\iWorkout\source\iWorkoutApp.mc" 25 8 ]
-        [ "C_Users_redwin_Documents_REPOS_iWorkout_source_iWorkoutApp_mc_20_65_start" "C_Users_redwin_Documents_REPOS_iWorkout_source_iWorkoutApp_mc_20_65_stop" ]
-        %delegate.2 = local;
-        %tmp.9 = getm $;
-        %tmp.10 = getv %tmp.9 :iWorkoutDelegate;
-        %tmp.12 = lgetv %view.1;
-        %tmp.6 = newc %tmp.10 (%tmp.12);
-        lputv %delegate.2 %tmp.6;
-[ "C:\Users\redwin\Documents\REPOS\iWorkout\source\iWorkoutApp.mc" 26 8 ]
-        %tmp.13 = newa Array<Views or InputDelegates> 2;
-        %tmp.15 = lgetv %view.1;
-        %tmp.16 = dup %tmp.13;
-        %tmp.17 = aputv %tmp.16 0 %tmp.15;
-        %tmp.19 = lgetv %delegate.2;
-        %tmp.20 = dup %tmp.17;
-        %tmp.21 = aputv %tmp.20 1 %tmp.19;
-        ret %tmp.21;
+        %tmp.6 = newa Array<Views> 1;
+        %tmp.8 = lgetv %view.1;
+        %tmp.9 = dup %tmp.6;
+        %tmp.10 = aputv %tmp.9 0 %tmp.8;
+        ret %tmp.10;
 C_Users_redwin_Documents_REPOS_iWorkout_source_iWorkoutApp_mc_20_65_stop:
     }
 }
-[ @file = "C:\Users\redwin\Documents\REPOS\iWorkout\source\iWorkoutApp.mc"; @line = 31; ]
+[ @file = "C:\Users\redwin\Documents\REPOS\iWorkout\source\iWorkoutApp.mc"; @line = 30; ]
 function getApp() as iWorkoutApp {
-C_Users_redwin_Documents_REPOS_iWorkout_source_iWorkoutApp_mc_31_33_start:
-[ "C:\Users\redwin\Documents\REPOS\iWorkout\source\iWorkoutApp.mc" 32 4 ]
+C_Users_redwin_Documents_REPOS_iWorkout_source_iWorkoutApp_mc_30_33_start:
+[ "C:\Users\redwin\Documents\REPOS\iWorkout\source\iWorkoutApp.mc" 31 4 ]
     %tmp.1 = getm $.Toybox.Application;
     %tmp.2 = getv function %tmp.1 :getApp;
     %tmp.3 = invoke %tmp.1 %tmp.2();
     %tmp.4 = as %tmp.3 iWorkoutApp;
     ret %tmp.4;
-C_Users_redwin_Documents_REPOS_iWorkout_source_iWorkoutApp_mc_31_33_stop:
+C_Users_redwin_Documents_REPOS_iWorkout_source_iWorkoutApp_mc_30_33_stop:
 }
 [ @file = "C:\Users\redwin\Documents\REPOS\iWorkout\source\iWorkoutApp.mc"; @line = 1; ]
 <init> {
