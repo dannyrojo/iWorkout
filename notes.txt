@@ -1,0 +1,10 @@
+getSplash()
+if current exercise != previous exercise
+	imageIndex = currentExercise
+	bitmap = loadResource(imageIndex)
+	draw Image
+
+1. Array of Images
+2. WatchUi.loadResource([])
+3. Define Bitmap Arguments, x, y, object
+4. drawBitmap

@@ -47,17 +47,6 @@ C_Users_redwin_Documents_REPOS_iWorkout_source_iWorkoutApp_mc_20_65_start:
 C_Users_redwin_Documents_REPOS_iWorkout_source_iWorkoutApp_mc_20_65_stop:
     }
 }
-[ @file = "C:\Users\redwin\Documents\REPOS\iWorkout\source\iWorkoutApp.mc"; @line = 30; ]
-function getApp() as iWorkoutApp {
-C_Users_redwin_Documents_REPOS_iWorkout_source_iWorkoutApp_mc_30_33_start:
-[ "C:\Users\redwin\Documents\REPOS\iWorkout\source\iWorkoutApp.mc" 31 4 ]
-    %tmp.1 = getm $.Toybox.Application;
-    %tmp.2 = getv function %tmp.1 :getApp;
-    %tmp.3 = invoke %tmp.1 %tmp.2();
-    %tmp.4 = as %tmp.3 iWorkoutApp;
-    ret %tmp.4;
-C_Users_redwin_Documents_REPOS_iWorkout_source_iWorkoutApp_mc_30_33_stop:
-}
 [ @file = "C:\Users\redwin\Documents\REPOS\iWorkout\source\iWorkoutApp.mc"; @line = 1; ]
 <init> {
 }

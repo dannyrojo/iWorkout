@@ -1,0 +1,12 @@
+<resources>
+    <bitmap id="id_Running" filename="images/running.jpg" />
+    <bitmap id="id_Jumping" filename="images/jumping.jpg" />
+    <bitmap id="id_Boxing" filename="images/boxing.jpg" />
+    <bitmap id="id_Burpee" filename="images/burpee.jpg" />
+    <bitmap id="id_Crunches" filename="images/crunches.jpg" />
+    <bitmap id="id_Glutebridge" filename="images/glutebridge.jpg" />
+    <bitmap id="id_Plank" filename="images/plank.jpg" />
+    <bitmap id="id_Pushups" filename="images/pushups.jpg" />
+    <bitmap id="id_Mountainclimbers" filename="images/mountainclimbers.jpg" />
+    <bitmap id="id_Squats" filename="images/squats.jpg" />
+</resources>

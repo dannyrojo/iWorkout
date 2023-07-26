@@ -2,271 +2,308 @@
 <debugInfo>
     <manifest filename="C:\Users\redwin\Documents\REPOS\iWorkout\manifest.xml"/>
     <pcToLineNum>
-        <entry filename="C:\\Users\\redwin\\Documents\\REPOS\\iWorkout\\source\\iWorkoutApp.mc" id="1" lineNum="30" parent="globals" pc="268435460" symbol="getApp"/>
-        <entry filename="C:\\Users\\redwin\\Documents\\REPOS\\iWorkout\\source\\iWorkoutApp.mc" id="1" lineNum="31" parent="globals" pc="268435470" symbol="getApp"/>
-        <entry filename="C:\\Users\\redwin\\Documents\\REPOS\\iWorkout\\source\\iWorkoutView.mc" id="2" lineNum="11" parent="globals/iWorkoutView" pc="268435486" symbol="&lt;init&gt;"/>
-        <entry filename="C:\\Users\\redwin\\Documents\\REPOS\\iWorkout\\source\\iWorkoutView.mc" id="2" lineNum="26" parent="globals/iWorkoutView" pc="268435504" symbol="&lt;init&gt;"/>
-        <entry filename="C:\\Users\\redwin\\Documents\\REPOS\\iWorkout\\source\\iWorkoutView.mc" id="2" lineNum="29" parent="globals/iWorkoutView" pc="268435570" symbol="&lt;init&gt;"/>
-        <entry filename="C:\\Users\\redwin\\Documents\\REPOS\\iWorkout\\source\\iWorkoutView.mc" id="4" lineNum="91" parent="globals/iWorkoutView" pc="268435676" symbol="onSnsr"/>
-        <entry filename="C:\\Users\\redwin\\Documents\\REPOS\\iWorkout\\source\\iWorkoutView.mc" id="4" lineNum="93" parent="globals/iWorkoutView" pc="268435678" symbol="onSnsr"/>
-        <entry filename="C:\\Users\\redwin\\Documents\\REPOS\\iWorkout\\source\\iWorkoutView.mc" id="4" lineNum="96" parent="globals/iWorkoutView" pc="268435694" symbol="onSnsr"/>
-        <entry filename="C:\\Users\\redwin\\Documents\\REPOS\\iWorkout\\source\\iWorkoutView.mc" id="4" lineNum="99" parent="globals/iWorkoutView" pc="268435707" symbol="onSnsr"/>
-        <entry filename="C:\\Users\\redwin\\Documents\\REPOS\\iWorkout\\source\\iWorkoutView.mc" id="4" lineNum="102" parent="globals/iWorkoutView" pc="268435738" symbol="onSnsr"/>
-        <entry filename="C:\\Users\\redwin\\Documents\\REPOS\\iWorkout\\source\\iWorkoutView.mc" id="4" lineNum="103" parent="globals/iWorkoutView" pc="268435750" symbol="onSnsr"/>
-        <entry filename="C:\\Users\\redwin\\Documents\\REPOS\\iWorkout\\source\\iWorkoutView.mc" id="4" lineNum="107" parent="globals/iWorkoutView" pc="268435777" symbol="onSnsr"/>
-        <entry filename="C:\\Users\\redwin\\Documents\\REPOS\\iWorkout\\source\\iWorkoutView.mc" id="4" lineNum="111" parent="globals/iWorkoutView" pc="268435790" symbol="onSnsr"/>
-        <entry filename="C:\\Users\\redwin\\Documents\\REPOS\\iWorkout\\source\\iWorkoutView.mc" id="5" lineNum="178" parent="globals/iWorkoutView" pc="268435807" symbol="onLayout"/>
-        <entry filename="C:\\Users\\redwin\\Documents\\REPOS\\iWorkout\\source\\iWorkoutView.mc" id="6" lineNum="115" parent="globals/iWorkoutView" pc="268435810" symbol="getZone"/>
-        <entry filename="C:\\Users\\redwin\\Documents\\REPOS\\iWorkout\\source\\iWorkoutView.mc" id="6" lineNum="118" parent="globals/iWorkoutView" pc="268435814" symbol="getZone"/>
-        <entry filename="C:\\Users\\redwin\\Documents\\REPOS\\iWorkout\\source\\iWorkoutView.mc" id="6" lineNum="121" parent="globals/iWorkoutView" pc="268435843" symbol="getZone"/>
-        <entry filename="C:\\Users\\redwin\\Documents\\REPOS\\iWorkout\\source\\iWorkoutView.mc" id="6" lineNum="122" parent="globals/iWorkoutView" pc="268435879" symbol="getZone"/>
-        <entry filename="C:\\Users\\redwin\\Documents\\REPOS\\iWorkout\\source\\iWorkoutView.mc" id="6" lineNum="123" parent="globals/iWorkoutView" pc="268435934" symbol="getZone"/>
-        <entry filename="C:\\Users\\redwin\\Documents\\REPOS\\iWorkout\\source\\iWorkoutView.mc" id="6" lineNum="124" parent="globals/iWorkoutView" pc="268435950" symbol="getZone"/>
-        <entry filename="C:\\Users\\redwin\\Documents\\REPOS\\iWorkout\\source\\iWorkoutView.mc" id="6" lineNum="128" parent="globals/iWorkoutView" pc="268435969" symbol="getZone"/>
-        <entry filename="C:\\Users\\redwin\\Documents\\REPOS\\iWorkout\\source\\iWorkoutView.mc" id="6" lineNum="129" parent="globals/iWorkoutView" pc="268436013" symbol="getZone"/>
-        <entry filename="C:\\Users\\redwin\\Documents\\REPOS\\iWorkout\\source\\iWorkoutView.mc" id="6" lineNum="133" parent="globals/iWorkoutView" pc="268436044" symbol="getZone"/>
-        <entry filename="C:\\Users\\redwin\\Documents\\REPOS\\iWorkout\\source\\iWorkoutView.mc" id="6" lineNum="135" parent="globals/iWorkoutView" pc="268436056" symbol="getZone"/>
-        <entry filename="C:\\Users\\redwin\\Documents\\REPOS\\iWorkout\\source\\iWorkoutView.mc" id="7" lineNum="40" parent="globals/iWorkoutView" pc="268436073" symbol="callback1"/>
-        <entry filename="C:\\Users\\redwin\\Documents\\REPOS\\iWorkout\\source\\iWorkoutView.mc" id="7" lineNum="42" parent="globals/iWorkoutView" pc="268436077" symbol="callback1"/>
-        <entry filename="C:\\Users\\redwin\\Documents\\REPOS\\iWorkout\\source\\iWorkoutView.mc" id="7" lineNum="45" parent="globals/iWorkoutView" pc="268436094" symbol="callback1"/>
-        <entry filename="C:\\Users\\redwin\\Documents\\REPOS\\iWorkout\\source\\iWorkoutView.mc" id="7" lineNum="48" parent="globals/iWorkoutView" pc="268436112" symbol="callback1"/>
-        <entry filename="C:\\Users\\redwin\\Documents\\REPOS\\iWorkout\\source\\iWorkoutView.mc" id="7" lineNum="55" parent="globals/iWorkoutView" pc="268436132" symbol="callback1"/>
-        <entry filename="C:\\Users\\redwin\\Documents\\REPOS\\iWorkout\\source\\iWorkoutView.mc" id="7" lineNum="56" parent="globals/iWorkoutView" pc="268436149" symbol="callback1"/>
-        <entry filename="C:\\Users\\redwin\\Documents\\REPOS\\iWorkout\\source\\iWorkoutView.mc" id="7" lineNum="57" parent="globals/iWorkoutView" pc="268436201" symbol="callback1"/>
-        <entry filename="C:\\Users\\redwin\\Documents\\REPOS\\iWorkout\\source\\iWorkoutView.mc" id="7" lineNum="60" parent="globals/iWorkoutView" pc="268436220" symbol="callback1"/>
-        <entry filename="C:\\Users\\redwin\\Documents\\REPOS\\iWorkout\\source\\iWorkoutView.mc" id="7" lineNum="63" parent="globals/iWorkoutView" pc="268436239" symbol="callback1"/>
-        <entry filename="C:\\Users\\redwin\\Documents\\REPOS\\iWorkout\\source\\iWorkoutView.mc" id="7" lineNum="66" parent="globals/iWorkoutView" pc="268436264" symbol="callback1"/>
-        <entry filename="C:\\Users\\redwin\\Documents\\REPOS\\iWorkout\\source\\iWorkoutView.mc" id="7" lineNum="67" parent="globals/iWorkoutView" pc="268436281" symbol="callback1"/>
-        <entry filename="C:\\Users\\redwin\\Documents\\REPOS\\iWorkout\\source\\iWorkoutView.mc" id="7" lineNum="68" parent="globals/iWorkoutView" pc="268436333" symbol="callback1"/>
-        <entry filename="C:\\Users\\redwin\\Documents\\REPOS\\iWorkout\\source\\iWorkoutView.mc" id="7" lineNum="71" parent="globals/iWorkoutView" pc="268436352" symbol="callback1"/>
-        <entry filename="C:\\Users\\redwin\\Documents\\REPOS\\iWorkout\\source\\iWorkoutView.mc" id="7" lineNum="74" parent="globals/iWorkoutView" pc="268436371" symbol="callback1"/>
-        <entry filename="C:\\Users\\redwin\\Documents\\REPOS\\iWorkout\\source\\iWorkoutView.mc" id="7" lineNum="83" parent="globals/iWorkoutView" pc="268436415" symbol="callback1"/>
-        <entry filename="C:\\Users\\redwin\\Documents\\REPOS\\iWorkout\\source\\iWorkoutView.mc" id="7" lineNum="86" parent="globals/iWorkoutView" pc="268436434" symbol="callback1"/>
-        <entry filename="C:\\Users\\redwin\\Documents\\REPOS\\iWorkout\\source\\iWorkoutView.mc" id="8" lineNum="139" parent="globals/iWorkoutView" pc="268436451" symbol="checkZoneChange"/>
-        <entry filename="C:\\Users\\redwin\\Documents\\REPOS\\iWorkout\\source\\iWorkoutView.mc" id="8" lineNum="140" parent="globals/iWorkoutView" pc="268436455" symbol="checkZoneChange"/>
-        <entry filename="C:\\Users\\redwin\\Documents\\REPOS\\iWorkout\\source\\iWorkoutView.mc" id="8" lineNum="141" parent="globals/iWorkoutView" pc="268436475" symbol="checkZoneChange"/>
-        <entry filename="C:\\Users\\redwin\\Documents\\REPOS\\iWorkout\\source\\iWorkoutView.mc" id="8" lineNum="142" parent="globals/iWorkoutView" pc="268436489" symbol="checkZoneChange"/>
-        <entry filename="C:\\Users\\redwin\\Documents\\REPOS\\iWorkout\\source\\iWorkoutView.mc" id="8" lineNum="143" parent="globals/iWorkoutView" pc="268436510" symbol="checkZoneChange"/>
-        <entry filename="C:\\Users\\redwin\\Documents\\REPOS\\iWorkout\\source\\iWorkoutView.mc" id="8" lineNum="145" parent="globals/iWorkoutView" pc="268436577" symbol="checkZoneChange"/>
-        <entry filename="C:\\Users\\redwin\\Documents\\REPOS\\iWorkout\\source\\iWorkoutView.mc" id="8" lineNum="146" parent="globals/iWorkoutView" pc="268436601" symbol="checkZoneChange"/>
-        <entry filename="C:\\Users\\redwin\\Documents\\REPOS\\iWorkout\\source\\iWorkoutView.mc" id="9" lineNum="151" parent="globals/iWorkoutView" pc="268436621" symbol="initialize"/>
-        <entry filename="C:\\Users\\redwin\\Documents\\REPOS\\iWorkout\\source\\iWorkoutView.mc" id="9" lineNum="155" parent="globals/iWorkoutView" pc="268436625" symbol="initialize"/>
-        <entry filename="C:\\Users\\redwin\\Documents\\REPOS\\iWorkout\\source\\iWorkoutView.mc" id="9" lineNum="156" parent="globals/iWorkoutView" pc="268436638" symbol="initialize"/>
-        <entry filename="C:\\Users\\redwin\\Documents\\REPOS\\iWorkout\\source\\iWorkoutView.mc" id="9" lineNum="159" parent="globals/iWorkoutView" pc="268436651" symbol="initialize"/>
-        <entry filename="C:\\Users\\redwin\\Documents\\REPOS\\iWorkout\\source\\iWorkoutView.mc" id="9" lineNum="162" parent="globals/iWorkoutView" pc="268436669" symbol="initialize"/>
-        <entry filename="C:\\Users\\redwin\\Documents\\REPOS\\iWorkout\\source\\iWorkoutView.mc" id="9" lineNum="163" parent="globals/iWorkoutView" pc="268436697" symbol="initialize"/>
-        <entry filename="C:\\Users\\redwin\\Documents\\REPOS\\iWorkout\\source\\iWorkoutView.mc" id="9" lineNum="166" parent="globals/iWorkoutView" pc="268436721" symbol="initialize"/>
-        <entry filename="C:\\Users\\redwin\\Documents\\REPOS\\iWorkout\\source\\iWorkoutView.mc" id="9" lineNum="167" parent="globals/iWorkoutView" pc="268436756" symbol="initialize"/>
-        <entry filename="C:\\Users\\redwin\\Documents\\REPOS\\iWorkout\\source\\iWorkoutView.mc" id="9" lineNum="170" parent="globals/iWorkoutView" pc="268436788" symbol="initialize"/>
-        <entry filename="C:\\Users\\redwin\\Documents\\REPOS\\iWorkout\\source\\iWorkoutView.mc" id="9" lineNum="171" parent="globals/iWorkoutView" pc="268436816" symbol="initialize"/>
-        <entry filename="C:\\Users\\redwin\\Documents\\REPOS\\iWorkout\\source\\iWorkoutView.mc" id="9" lineNum="172" parent="globals/iWorkoutView" pc="268436851" symbol="initialize"/>
-        <entry filename="C:\\Users\\redwin\\Documents\\REPOS\\iWorkout\\source\\iWorkoutView.mc" id="11" lineNum="189" parent="globals/iWorkoutView" pc="268436862" symbol="onUpdate"/>
-        <entry filename="C:\\Users\\redwin\\Documents\\REPOS\\iWorkout\\source\\iWorkoutView.mc" id="11" lineNum="192" parent="globals/iWorkoutView" pc="268436866" symbol="onUpdate"/>
-        <entry filename="C:\\Users\\redwin\\Documents\\REPOS\\iWorkout\\source\\iWorkoutView.mc" id="11" lineNum="195" parent="globals/iWorkoutView" pc="268436886" symbol="onUpdate"/>
-        <entry filename="C:\\Users\\redwin\\Documents\\REPOS\\iWorkout\\source\\iWorkoutView.mc" id="11" lineNum="196" parent="globals/iWorkoutView" pc="268436908" symbol="onUpdate"/>
-        <entry filename="C:\\Users\\redwin\\Documents\\REPOS\\iWorkout\\source\\iWorkoutView.mc" id="11" lineNum="199" parent="globals/iWorkoutView" pc="268436920" symbol="onUpdate"/>
-        <entry filename="C:\\Users\\redwin\\Documents\\REPOS\\iWorkout\\source\\iWorkoutView.mc" id="11" lineNum="200" parent="globals/iWorkoutView" pc="268436930" symbol="onUpdate"/>
-        <entry filename="C:\\Users\\redwin\\Documents\\REPOS\\iWorkout\\source\\iWorkoutView.mc" id="11" lineNum="201" parent="globals/iWorkoutView" pc="268436940" symbol="onUpdate"/>
-        <entry filename="C:\\Users\\redwin\\Documents\\REPOS\\iWorkout\\source\\iWorkoutView.mc" id="11" lineNum="202" parent="globals/iWorkoutView" pc="268436950" symbol="onUpdate"/>
-        <entry filename="C:\\Users\\redwin\\Documents\\REPOS\\iWorkout\\source\\iWorkoutView.mc" id="11" lineNum="203" parent="globals/iWorkoutView" pc="268436977" symbol="onUpdate"/>
-        <entry filename="C:\\Users\\redwin\\Documents\\REPOS\\iWorkout\\source\\iWorkoutView.mc" id="11" lineNum="204" parent="globals/iWorkoutView" pc="268436999" symbol="onUpdate"/>
-        <entry filename="C:\\Users\\redwin\\Documents\\REPOS\\iWorkout\\source\\iWorkoutView.mc" id="11" lineNum="205" parent="globals/iWorkoutView" pc="268437003" symbol="onUpdate"/>
-        <entry filename="C:\\Users\\redwin\\Documents\\REPOS\\iWorkout\\source\\iWorkoutView.mc" id="11" lineNum="208" parent="globals/iWorkoutView" pc="268437061" symbol="onUpdate"/>
-        <entry filename="C:\\Users\\redwin\\Documents\\REPOS\\iWorkout\\source\\iWorkoutView.mc" id="11" lineNum="209" parent="globals/iWorkoutView" pc="268437083" symbol="onUpdate"/>
-        <entry filename="C:\\Users\\redwin\\Documents\\REPOS\\iWorkout\\source\\iWorkoutView.mc" id="11" lineNum="212" parent="globals/iWorkoutView" pc="268437135" symbol="onUpdate"/>
-        <entry filename="C:\\Users\\redwin\\Documents\\REPOS\\iWorkout\\source\\iWorkoutView.mc" id="11" lineNum="213" parent="globals/iWorkoutView" pc="268437157" symbol="onUpdate"/>
-        <entry filename="C:\\Users\\redwin\\Documents\\REPOS\\iWorkout\\bin\\gen\\006-B2700-00\\source\\Rez.mcgen" id="12" lineNum="7" parent="globals/Rez" pc="268437210" symbol="&lt;init&gt;"/>
-        <entry filename="C:\\Users\\redwin\\Documents\\REPOS\\iWorkout\\source\\iWorkoutApp.mc" id="13" lineNum="5" parent="globals/iWorkoutApp" pc="268437234" symbol="&lt;init&gt;"/>
-        <entry filename="C:\\Users\\redwin\\Documents\\REPOS\\iWorkout\\source\\iWorkoutApp.mc" id="14" lineNum="12" parent="globals/iWorkoutApp" pc="268437253" symbol="onStart"/>
-        <entry filename="C:\\Users\\redwin\\Documents\\REPOS\\iWorkout\\source\\iWorkoutApp.mc" id="15" lineNum="20" parent="globals/iWorkoutApp" pc="268437256" symbol="getInitialView"/>
-        <entry filename="C:\\Users\\redwin\\Documents\\REPOS\\iWorkout\\source\\iWorkoutApp.mc" id="15" lineNum="24" parent="globals/iWorkoutApp" pc="268437260" symbol="getInitialView"/>
-        <entry filename="C:\\Users\\redwin\\Documents\\REPOS\\iWorkout\\source\\iWorkoutApp.mc" id="15" lineNum="25" parent="globals/iWorkoutApp" pc="268437288" symbol="getInitialView"/>
-        <entry filename="C:\\Users\\redwin\\Documents\\REPOS\\iWorkout\\source\\iWorkoutApp.mc" id="16" lineNum="7" parent="globals/iWorkoutApp" pc="268437305" symbol="initialize"/>
-        <entry filename="C:\\Users\\redwin\\Documents\\REPOS\\iWorkout\\source\\iWorkoutApp.mc" id="16" lineNum="8" parent="globals/iWorkoutApp" pc="268437307" symbol="initialize"/>
-        <entry filename="C:\\Users\\redwin\\Documents\\REPOS\\iWorkout\\source\\iWorkoutApp.mc" id="17" lineNum="16" parent="globals/iWorkoutApp" pc="268437326" symbol="onStop"/>
-        <entry filename="C:\\Users\\redwin\\Documents\\REPOS\\iWorkout\\bin\\gen\\006-B2700-00\\source\\Rez.mcgen" id="18" lineNum="20" parent="globals/Rez/Layouts" pc="268437329" symbol="MainLayout"/>
-        <entry filename="C:\\Users\\redwin\\Documents\\REPOS\\iWorkout\\bin\\gen\\006-B2700-00\\source\\Rez.mcgen" id="18" lineNum="21" parent="globals/Rez/Layouts" pc="268437341" symbol="MainLayout"/>
-        <entry filename="C:\\Users\\redwin\\Documents\\REPOS\\iWorkout\\bin\\gen\\006-B2700-00\\source\\Rez.mcgen" id="18" lineNum="23" parent="globals/Rez/Layouts" pc="268437472" symbol="MainLayout"/>
-        <entry filename="C:\\Users\\redwin\\Documents\\REPOS\\iWorkout\\bin\\gen\\006-B2700-00\\source\\Rez.mcgen" id="18" lineNum="24" parent="globals/Rez/Layouts" pc="268437577" symbol="MainLayout"/>
-        <entry filename="C:\\Users\\redwin\\Documents\\REPOS\\iWorkout\\bin\\gen\\006-B2700-00\\source\\Rez.mcgen" id="18" lineNum="26" parent="globals/Rez/Layouts" pc="268437617" symbol="MainLayout"/>
-        <entry filename="C:\\Users\\redwin\\Documents\\REPOS\\iWorkout\\bin\\gen\\006-B2700-00\\source\\Rez.mcgen" id="19" lineNum="31" parent="globals/Rez/Menus/MainMenu" pc="268437644" symbol="&lt;init&gt;"/>
-        <entry filename="C:\\Users\\redwin\\Documents\\REPOS\\iWorkout\\bin\\gen\\006-B2700-00\\source\\Rez.mcgen" id="20" lineNum="32" parent="globals/Rez/Menus/MainMenu" pc="268437663" symbol="initialize"/>
-        <entry filename="C:\\Users\\redwin\\Documents\\REPOS\\iWorkout\\bin\\gen\\006-B2700-00\\source\\Rez.mcgen" id="20" lineNum="33" parent="globals/Rez/Menus/MainMenu" pc="268437665" symbol="initialize"/>
-        <entry filename="C:\\Users\\redwin\\Documents\\REPOS\\iWorkout\\bin\\gen\\006-B2700-00\\source\\Rez.mcgen" id="20" lineNum="34" parent="globals/Rez/Menus/MainMenu" pc="268437683" symbol="initialize"/>
-        <entry filename="C:\\Users\\redwin\\Documents\\REPOS\\iWorkout\\bin\\gen\\006-B2700-00\\source\\Rez.mcgen" id="20" lineNum="35" parent="globals/Rez/Menus/MainMenu" pc="268437739" symbol="initialize"/>
+        <entry filename="C:\\Users\\redwin\\Documents\\REPOS\\iWorkout\\source\\iWorkoutView.mc" id="1" lineNum="11" parent="globals/iWorkoutView" pc="268435460" symbol="&lt;init&gt;"/>
+        <entry filename="C:\\Users\\redwin\\Documents\\REPOS\\iWorkout\\source\\iWorkoutView.mc" id="1" lineNum="29" parent="globals/iWorkoutView" pc="268435478" symbol="&lt;init&gt;"/>
+        <entry filename="C:\\Users\\redwin\\Documents\\REPOS\\iWorkout\\source\\iWorkoutView.mc" id="1" lineNum="32" parent="globals/iWorkoutView" pc="268435544" symbol="&lt;init&gt;"/>
+        <entry filename="C:\\Users\\redwin\\Documents\\REPOS\\iWorkout\\source\\iWorkoutView.mc" id="1" lineNum="46" parent="globals/iWorkoutView" pc="268435688" symbol="&lt;init&gt;"/>
+        <entry filename="C:\\Users\\redwin\\Documents\\REPOS\\iWorkout\\source\\iWorkoutView.mc" id="2" lineNum="174" parent="globals/iWorkoutView" pc="268436023" symbol="hideBitmap"/>
+        <entry filename="C:\\Users\\redwin\\Documents\\REPOS\\iWorkout\\source\\iWorkoutView.mc" id="2" lineNum="175" parent="globals/iWorkoutView" pc="268436025" symbol="hideBitmap"/>
+        <entry filename="C:\\Users\\redwin\\Documents\\REPOS\\iWorkout\\source\\iWorkoutView.mc" id="2" lineNum="176" parent="globals/iWorkoutView" pc="268436034" symbol="hideBitmap"/>
+        <entry filename="C:\\Users\\redwin\\Documents\\REPOS\\iWorkout\\source\\iWorkoutView.mc" id="3" lineNum="59" parent="globals/iWorkoutView" pc="268436051" symbol="callback1"/>
+        <entry filename="C:\\Users\\redwin\\Documents\\REPOS\\iWorkout\\source\\iWorkoutView.mc" id="3" lineNum="61" parent="globals/iWorkoutView" pc="268436055" symbol="callback1"/>
+        <entry filename="C:\\Users\\redwin\\Documents\\REPOS\\iWorkout\\source\\iWorkoutView.mc" id="3" lineNum="64" parent="globals/iWorkoutView" pc="268436072" symbol="callback1"/>
+        <entry filename="C:\\Users\\redwin\\Documents\\REPOS\\iWorkout\\source\\iWorkoutView.mc" id="3" lineNum="67" parent="globals/iWorkoutView" pc="268436090" symbol="callback1"/>
+        <entry filename="C:\\Users\\redwin\\Documents\\REPOS\\iWorkout\\source\\iWorkoutView.mc" id="3" lineNum="74" parent="globals/iWorkoutView" pc="268436110" symbol="callback1"/>
+        <entry filename="C:\\Users\\redwin\\Documents\\REPOS\\iWorkout\\source\\iWorkoutView.mc" id="3" lineNum="75" parent="globals/iWorkoutView" pc="268436127" symbol="callback1"/>
+        <entry filename="C:\\Users\\redwin\\Documents\\REPOS\\iWorkout\\source\\iWorkoutView.mc" id="3" lineNum="76" parent="globals/iWorkoutView" pc="268436179" symbol="callback1"/>
+        <entry filename="C:\\Users\\redwin\\Documents\\REPOS\\iWorkout\\source\\iWorkoutView.mc" id="3" lineNum="77" parent="globals/iWorkoutView" pc="268436198" symbol="callback1"/>
+        <entry filename="C:\\Users\\redwin\\Documents\\REPOS\\iWorkout\\source\\iWorkoutView.mc" id="3" lineNum="79" parent="globals/iWorkoutView" pc="268436222" symbol="callback1"/>
+        <entry filename="C:\\Users\\redwin\\Documents\\REPOS\\iWorkout\\source\\iWorkoutView.mc" id="3" lineNum="82" parent="globals/iWorkoutView" pc="268436241" symbol="callback1"/>
+        <entry filename="C:\\Users\\redwin\\Documents\\REPOS\\iWorkout\\source\\iWorkoutView.mc" id="3" lineNum="85" parent="globals/iWorkoutView" pc="268436266" symbol="callback1"/>
+        <entry filename="C:\\Users\\redwin\\Documents\\REPOS\\iWorkout\\source\\iWorkoutView.mc" id="3" lineNum="86" parent="globals/iWorkoutView" pc="268436283" symbol="callback1"/>
+        <entry filename="C:\\Users\\redwin\\Documents\\REPOS\\iWorkout\\source\\iWorkoutView.mc" id="3" lineNum="87" parent="globals/iWorkoutView" pc="268436335" symbol="callback1"/>
+        <entry filename="C:\\Users\\redwin\\Documents\\REPOS\\iWorkout\\source\\iWorkoutView.mc" id="3" lineNum="88" parent="globals/iWorkoutView" pc="268436354" symbol="callback1"/>
+        <entry filename="C:\\Users\\redwin\\Documents\\REPOS\\iWorkout\\source\\iWorkoutView.mc" id="3" lineNum="90" parent="globals/iWorkoutView" pc="268436378" symbol="callback1"/>
+        <entry filename="C:\\Users\\redwin\\Documents\\REPOS\\iWorkout\\source\\iWorkoutView.mc" id="3" lineNum="93" parent="globals/iWorkoutView" pc="268436397" symbol="callback1"/>
+        <entry filename="C:\\Users\\redwin\\Documents\\REPOS\\iWorkout\\source\\iWorkoutView.mc" id="3" lineNum="94" parent="globals/iWorkoutView" pc="268436431" symbol="callback1"/>
+        <entry filename="C:\\Users\\redwin\\Documents\\REPOS\\iWorkout\\source\\iWorkoutView.mc" id="3" lineNum="97" parent="globals/iWorkoutView" pc="268436472" symbol="callback1"/>
+        <entry filename="C:\\Users\\redwin\\Documents\\REPOS\\iWorkout\\source\\iWorkoutView.mc" id="3" lineNum="100" parent="globals/iWorkoutView" pc="268436513" symbol="callback1"/>
+        <entry filename="C:\\Users\\redwin\\Documents\\REPOS\\iWorkout\\source\\iWorkoutView.mc" id="3" lineNum="106" parent="globals/iWorkoutView" pc="268436540" symbol="callback1"/>
+        <entry filename="C:\\Users\\redwin\\Documents\\REPOS\\iWorkout\\source\\iWorkoutView.mc" id="3" lineNum="109" parent="globals/iWorkoutView" pc="268436559" symbol="callback1"/>
+        <entry filename="C:\\Users\\redwin\\Documents\\REPOS\\iWorkout\\source\\iWorkoutView.mc" id="4" lineNum="162" parent="globals/iWorkoutView" pc="268436576" symbol="checkZoneChange"/>
+        <entry filename="C:\\Users\\redwin\\Documents\\REPOS\\iWorkout\\source\\iWorkoutView.mc" id="4" lineNum="163" parent="globals/iWorkoutView" pc="268436580" symbol="checkZoneChange"/>
+        <entry filename="C:\\Users\\redwin\\Documents\\REPOS\\iWorkout\\source\\iWorkoutView.mc" id="4" lineNum="164" parent="globals/iWorkoutView" pc="268436600" symbol="checkZoneChange"/>
+        <entry filename="C:\\Users\\redwin\\Documents\\REPOS\\iWorkout\\source\\iWorkoutView.mc" id="4" lineNum="165" parent="globals/iWorkoutView" pc="268436614" symbol="checkZoneChange"/>
+        <entry filename="C:\\Users\\redwin\\Documents\\REPOS\\iWorkout\\source\\iWorkoutView.mc" id="4" lineNum="166" parent="globals/iWorkoutView" pc="268436635" symbol="checkZoneChange"/>
+        <entry filename="C:\\Users\\redwin\\Documents\\REPOS\\iWorkout\\source\\iWorkoutView.mc" id="4" lineNum="168" parent="globals/iWorkoutView" pc="268436702" symbol="checkZoneChange"/>
+        <entry filename="C:\\Users\\redwin\\Documents\\REPOS\\iWorkout\\source\\iWorkoutView.mc" id="4" lineNum="169" parent="globals/iWorkoutView" pc="268436726" symbol="checkZoneChange"/>
+        <entry filename="C:\\Users\\redwin\\Documents\\REPOS\\iWorkout\\source\\iWorkoutView.mc" id="7" lineNum="114" parent="globals/iWorkoutView" pc="268436746" symbol="onSnsr"/>
+        <entry filename="C:\\Users\\redwin\\Documents\\REPOS\\iWorkout\\source\\iWorkoutView.mc" id="7" lineNum="116" parent="globals/iWorkoutView" pc="268436748" symbol="onSnsr"/>
+        <entry filename="C:\\Users\\redwin\\Documents\\REPOS\\iWorkout\\source\\iWorkoutView.mc" id="7" lineNum="119" parent="globals/iWorkoutView" pc="268436764" symbol="onSnsr"/>
+        <entry filename="C:\\Users\\redwin\\Documents\\REPOS\\iWorkout\\source\\iWorkoutView.mc" id="7" lineNum="122" parent="globals/iWorkoutView" pc="268436777" symbol="onSnsr"/>
+        <entry filename="C:\\Users\\redwin\\Documents\\REPOS\\iWorkout\\source\\iWorkoutView.mc" id="7" lineNum="125" parent="globals/iWorkoutView" pc="268436808" symbol="onSnsr"/>
+        <entry filename="C:\\Users\\redwin\\Documents\\REPOS\\iWorkout\\source\\iWorkoutView.mc" id="7" lineNum="126" parent="globals/iWorkoutView" pc="268436820" symbol="onSnsr"/>
+        <entry filename="C:\\Users\\redwin\\Documents\\REPOS\\iWorkout\\source\\iWorkoutView.mc" id="7" lineNum="130" parent="globals/iWorkoutView" pc="268436847" symbol="onSnsr"/>
+        <entry filename="C:\\Users\\redwin\\Documents\\REPOS\\iWorkout\\source\\iWorkoutView.mc" id="7" lineNum="134" parent="globals/iWorkoutView" pc="268436860" symbol="onSnsr"/>
+        <entry filename="C:\\Users\\redwin\\Documents\\REPOS\\iWorkout\\source\\iWorkoutView.mc" id="8" lineNum="209" parent="globals/iWorkoutView" pc="268436877" symbol="onLayout"/>
+        <entry filename="C:\\Users\\redwin\\Documents\\REPOS\\iWorkout\\source\\iWorkoutView.mc" id="9" lineNum="138" parent="globals/iWorkoutView" pc="268436880" symbol="getZone"/>
+        <entry filename="C:\\Users\\redwin\\Documents\\REPOS\\iWorkout\\source\\iWorkoutView.mc" id="9" lineNum="141" parent="globals/iWorkoutView" pc="268436884" symbol="getZone"/>
+        <entry filename="C:\\Users\\redwin\\Documents\\REPOS\\iWorkout\\source\\iWorkoutView.mc" id="9" lineNum="144" parent="globals/iWorkoutView" pc="268436913" symbol="getZone"/>
+        <entry filename="C:\\Users\\redwin\\Documents\\REPOS\\iWorkout\\source\\iWorkoutView.mc" id="9" lineNum="145" parent="globals/iWorkoutView" pc="268436949" symbol="getZone"/>
+        <entry filename="C:\\Users\\redwin\\Documents\\REPOS\\iWorkout\\source\\iWorkoutView.mc" id="9" lineNum="146" parent="globals/iWorkoutView" pc="268437004" symbol="getZone"/>
+        <entry filename="C:\\Users\\redwin\\Documents\\REPOS\\iWorkout\\source\\iWorkoutView.mc" id="9" lineNum="147" parent="globals/iWorkoutView" pc="268437020" symbol="getZone"/>
+        <entry filename="C:\\Users\\redwin\\Documents\\REPOS\\iWorkout\\source\\iWorkoutView.mc" id="9" lineNum="151" parent="globals/iWorkoutView" pc="268437039" symbol="getZone"/>
+        <entry filename="C:\\Users\\redwin\\Documents\\REPOS\\iWorkout\\source\\iWorkoutView.mc" id="9" lineNum="152" parent="globals/iWorkoutView" pc="268437083" symbol="getZone"/>
+        <entry filename="C:\\Users\\redwin\\Documents\\REPOS\\iWorkout\\source\\iWorkoutView.mc" id="9" lineNum="156" parent="globals/iWorkoutView" pc="268437114" symbol="getZone"/>
+        <entry filename="C:\\Users\\redwin\\Documents\\REPOS\\iWorkout\\source\\iWorkoutView.mc" id="9" lineNum="158" parent="globals/iWorkoutView" pc="268437126" symbol="getZone"/>
+        <entry filename="C:\\Users\\redwin\\Documents\\REPOS\\iWorkout\\source\\iWorkoutView.mc" id="10" lineNum="180" parent="globals/iWorkoutView" pc="268437143" symbol="initialize"/>
+        <entry filename="C:\\Users\\redwin\\Documents\\REPOS\\iWorkout\\source\\iWorkoutView.mc" id="10" lineNum="184" parent="globals/iWorkoutView" pc="268437147" symbol="initialize"/>
+        <entry filename="C:\\Users\\redwin\\Documents\\REPOS\\iWorkout\\source\\iWorkoutView.mc" id="10" lineNum="185" parent="globals/iWorkoutView" pc="268437160" symbol="initialize"/>
+        <entry filename="C:\\Users\\redwin\\Documents\\REPOS\\iWorkout\\source\\iWorkoutView.mc" id="10" lineNum="188" parent="globals/iWorkoutView" pc="268437173" symbol="initialize"/>
+        <entry filename="C:\\Users\\redwin\\Documents\\REPOS\\iWorkout\\source\\iWorkoutView.mc" id="10" lineNum="191" parent="globals/iWorkoutView" pc="268437191" symbol="initialize"/>
+        <entry filename="C:\\Users\\redwin\\Documents\\REPOS\\iWorkout\\source\\iWorkoutView.mc" id="10" lineNum="192" parent="globals/iWorkoutView" pc="268437219" symbol="initialize"/>
+        <entry filename="C:\\Users\\redwin\\Documents\\REPOS\\iWorkout\\source\\iWorkoutView.mc" id="10" lineNum="195" parent="globals/iWorkoutView" pc="268437243" symbol="initialize"/>
+        <entry filename="C:\\Users\\redwin\\Documents\\REPOS\\iWorkout\\source\\iWorkoutView.mc" id="10" lineNum="196" parent="globals/iWorkoutView" pc="268437278" symbol="initialize"/>
+        <entry filename="C:\\Users\\redwin\\Documents\\REPOS\\iWorkout\\source\\iWorkoutView.mc" id="10" lineNum="199" parent="globals/iWorkoutView" pc="268437310" symbol="initialize"/>
+        <entry filename="C:\\Users\\redwin\\Documents\\REPOS\\iWorkout\\source\\iWorkoutView.mc" id="10" lineNum="200" parent="globals/iWorkoutView" pc="268437338" symbol="initialize"/>
+        <entry filename="C:\\Users\\redwin\\Documents\\REPOS\\iWorkout\\source\\iWorkoutView.mc" id="10" lineNum="201" parent="globals/iWorkoutView" pc="268437373" symbol="initialize"/>
+        <entry filename="C:\\Users\\redwin\\Documents\\REPOS\\iWorkout\\source\\iWorkoutView.mc" id="10" lineNum="203" parent="globals/iWorkoutView" pc="268437383" symbol="initialize"/>
+        <entry filename="C:\\Users\\redwin\\Documents\\REPOS\\iWorkout\\source\\iWorkoutView.mc" id="11" lineNum="220" parent="globals/iWorkoutView" pc="268437418" symbol="onUpdate"/>
+        <entry filename="C:\\Users\\redwin\\Documents\\REPOS\\iWorkout\\source\\iWorkoutView.mc" id="11" lineNum="223" parent="globals/iWorkoutView" pc="268437422" symbol="onUpdate"/>
+        <entry filename="C:\\Users\\redwin\\Documents\\REPOS\\iWorkout\\source\\iWorkoutView.mc" id="11" lineNum="226" parent="globals/iWorkoutView" pc="268437442" symbol="onUpdate"/>
+        <entry filename="C:\\Users\\redwin\\Documents\\REPOS\\iWorkout\\source\\iWorkoutView.mc" id="11" lineNum="227" parent="globals/iWorkoutView" pc="268437464" symbol="onUpdate"/>
+        <entry filename="C:\\Users\\redwin\\Documents\\REPOS\\iWorkout\\source\\iWorkoutView.mc" id="11" lineNum="230" parent="globals/iWorkoutView" pc="268437476" symbol="onUpdate"/>
+        <entry filename="C:\\Users\\redwin\\Documents\\REPOS\\iWorkout\\source\\iWorkoutView.mc" id="11" lineNum="231" parent="globals/iWorkoutView" pc="268437486" symbol="onUpdate"/>
+        <entry filename="C:\\Users\\redwin\\Documents\\REPOS\\iWorkout\\source\\iWorkoutView.mc" id="11" lineNum="232" parent="globals/iWorkoutView" pc="268437496" symbol="onUpdate"/>
+        <entry filename="C:\\Users\\redwin\\Documents\\REPOS\\iWorkout\\source\\iWorkoutView.mc" id="11" lineNum="233" parent="globals/iWorkoutView" pc="268437506" symbol="onUpdate"/>
+        <entry filename="C:\\Users\\redwin\\Documents\\REPOS\\iWorkout\\source\\iWorkoutView.mc" id="11" lineNum="234" parent="globals/iWorkoutView" pc="268437533" symbol="onUpdate"/>
+        <entry filename="C:\\Users\\redwin\\Documents\\REPOS\\iWorkout\\source\\iWorkoutView.mc" id="11" lineNum="235" parent="globals/iWorkoutView" pc="268437555" symbol="onUpdate"/>
+        <entry filename="C:\\Users\\redwin\\Documents\\REPOS\\iWorkout\\source\\iWorkoutView.mc" id="11" lineNum="236" parent="globals/iWorkoutView" pc="268437559" symbol="onUpdate"/>
+        <entry filename="C:\\Users\\redwin\\Documents\\REPOS\\iWorkout\\source\\iWorkoutView.mc" id="11" lineNum="239" parent="globals/iWorkoutView" pc="268437617" symbol="onUpdate"/>
+        <entry filename="C:\\Users\\redwin\\Documents\\REPOS\\iWorkout\\source\\iWorkoutView.mc" id="11" lineNum="240" parent="globals/iWorkoutView" pc="268437639" symbol="onUpdate"/>
+        <entry filename="C:\\Users\\redwin\\Documents\\REPOS\\iWorkout\\source\\iWorkoutView.mc" id="11" lineNum="243" parent="globals/iWorkoutView" pc="268437691" symbol="onUpdate"/>
+        <entry filename="C:\\Users\\redwin\\Documents\\REPOS\\iWorkout\\source\\iWorkoutView.mc" id="11" lineNum="244" parent="globals/iWorkoutView" pc="268437713" symbol="onUpdate"/>
+        <entry filename="C:\\Users\\redwin\\Documents\\REPOS\\iWorkout\\source\\iWorkoutView.mc" id="11" lineNum="250" parent="globals/iWorkoutView" pc="268437765" symbol="onUpdate"/>
+        <entry filename="C:\\Users\\redwin\\Documents\\REPOS\\iWorkout\\source\\iWorkoutView.mc" id="11" lineNum="252" parent="globals/iWorkoutView" pc="268437778" symbol="onUpdate"/>
+        <entry filename="C:\\Users\\redwin\\Documents\\REPOS\\iWorkout\\source\\iWorkoutView.mc" id="11" lineNum="253" parent="globals/iWorkoutView" pc="268437821" symbol="onUpdate"/>
+        <entry filename="C:\\Users\\redwin\\Documents\\REPOS\\iWorkout\\source\\iWorkoutView.mc" id="11" lineNum="255" parent="globals/iWorkoutView" pc="268437864" symbol="onUpdate"/>
+        <entry filename="C:\\Users\\redwin\\Documents\\REPOS\\iWorkout\\bin\\gen\\006-B2700-00\\source\\Rez.mcgen" id="12" lineNum="7" parent="globals/Rez" pc="268437892" symbol="&lt;init&gt;"/>
+        <entry filename="C:\\Users\\redwin\\Documents\\REPOS\\iWorkout\\source\\iWorkoutApp.mc" id="13" lineNum="5" parent="globals/iWorkoutApp" pc="268437916" symbol="&lt;init&gt;"/>
+        <entry filename="C:\\Users\\redwin\\Documents\\REPOS\\iWorkout\\source\\iWorkoutApp.mc" id="14" lineNum="12" parent="globals/iWorkoutApp" pc="268437935" symbol="onStart"/>
+        <entry filename="C:\\Users\\redwin\\Documents\\REPOS\\iWorkout\\source\\iWorkoutApp.mc" id="15" lineNum="20" parent="globals/iWorkoutApp" pc="268437938" symbol="getInitialView"/>
+        <entry filename="C:\\Users\\redwin\\Documents\\REPOS\\iWorkout\\source\\iWorkoutApp.mc" id="15" lineNum="24" parent="globals/iWorkoutApp" pc="268437942" symbol="getInitialView"/>
+        <entry filename="C:\\Users\\redwin\\Documents\\REPOS\\iWorkout\\source\\iWorkoutApp.mc" id="15" lineNum="25" parent="globals/iWorkoutApp" pc="268437970" symbol="getInitialView"/>
+        <entry filename="C:\\Users\\redwin\\Documents\\REPOS\\iWorkout\\source\\iWorkoutApp.mc" id="16" lineNum="7" parent="globals/iWorkoutApp" pc="268437987" symbol="initialize"/>
+        <entry filename="C:\\Users\\redwin\\Documents\\REPOS\\iWorkout\\source\\iWorkoutApp.mc" id="16" lineNum="8" parent="globals/iWorkoutApp" pc="268437989" symbol="initialize"/>
+        <entry filename="C:\\Users\\redwin\\Documents\\REPOS\\iWorkout\\source\\iWorkoutApp.mc" id="17" lineNum="16" parent="globals/iWorkoutApp" pc="268438008" symbol="onStop"/>
+        <entry filename="C:\\Users\\redwin\\Documents\\REPOS\\iWorkout\\bin\\gen\\006-B2700-00\\source\\Rez.mcgen" id="18" lineNum="30" parent="globals/Rez/Layouts" pc="268438011" symbol="MainLayout"/>
+        <entry filename="C:\\Users\\redwin\\Documents\\REPOS\\iWorkout\\bin\\gen\\006-B2700-00\\source\\Rez.mcgen" id="18" lineNum="31" parent="globals/Rez/Layouts" pc="268438023" symbol="MainLayout"/>
+        <entry filename="C:\\Users\\redwin\\Documents\\REPOS\\iWorkout\\bin\\gen\\006-B2700-00\\source\\Rez.mcgen" id="18" lineNum="33" parent="globals/Rez/Layouts" pc="268438154" symbol="MainLayout"/>
+        <entry filename="C:\\Users\\redwin\\Documents\\REPOS\\iWorkout\\bin\\gen\\006-B2700-00\\source\\Rez.mcgen" id="18" lineNum="34" parent="globals/Rez/Layouts" pc="268438259" symbol="MainLayout"/>
+        <entry filename="C:\\Users\\redwin\\Documents\\REPOS\\iWorkout\\bin\\gen\\006-B2700-00\\source\\Rez.mcgen" id="18" lineNum="36" parent="globals/Rez/Layouts" pc="268438299" symbol="MainLayout"/>
+        <entry filename="C:\\Users\\redwin\\Documents\\REPOS\\iWorkout\\bin\\gen\\006-B2700-00\\source\\Rez.mcgen" id="19" lineNum="41" parent="globals/Rez/Menus/MainMenu" pc="268438326" symbol="&lt;init&gt;"/>
+        <entry filename="C:\\Users\\redwin\\Documents\\REPOS\\iWorkout\\bin\\gen\\006-B2700-00\\source\\Rez.mcgen" id="20" lineNum="42" parent="globals/Rez/Menus/MainMenu" pc="268438345" symbol="initialize"/>
+        <entry filename="C:\\Users\\redwin\\Documents\\REPOS\\iWorkout\\bin\\gen\\006-B2700-00\\source\\Rez.mcgen" id="20" lineNum="43" parent="globals/Rez/Menus/MainMenu" pc="268438347" symbol="initialize"/>
+        <entry filename="C:\\Users\\redwin\\Documents\\REPOS\\iWorkout\\bin\\gen\\006-B2700-00\\source\\Rez.mcgen" id="20" lineNum="44" parent="globals/Rez/Menus/MainMenu" pc="268438365" symbol="initialize"/>
+        <entry filename="C:\\Users\\redwin\\Documents\\REPOS\\iWorkout\\bin\\gen\\006-B2700-00\\source\\Rez.mcgen" id="20" lineNum="45" parent="globals/Rez/Menus/MainMenu" pc="268438421" symbol="initialize"/>
     </pcToLineNum>
     <symbolTable>
         <entry id="8388639" module="true" symbol="Graphics"/>
         <entry id="8389346" symbol="text"/>
         <entry id="10" object="true" symbol="iWorkoutView"/>
         <entry id="8388632" method="true" symbol="&lt;init&gt;"/>
-        <entry field="true" id="17" symbol="&lt;globals/iWorkoutView/&lt;&gt;exerciseType&gt;"/>
+        <entry field="true" id="20" symbol="&lt;globals/iWorkoutView/&lt;&gt;exerciseType&gt;"/>
         <entry id="8388700" method="true" symbol="callback1"/>
         <entry id="7" module="true" symbol="globals/Rez/Menus"/>
-        <entry id="30" method="true" symbol="MainLayout"/>
-        <entry field="true" id="11" symbol="&lt;globals/iWorkoutView/&lt;&gt;_count1&gt;"/>
+        <entry id="44" method="true" symbol="MainLayout"/>
+        <entry field="true" id="37" symbol="id_Jumping"/>
+        <entry field="true" id="14" symbol="&lt;globals/iWorkoutView/&lt;&gt;_count1&gt;"/>
         <entry id="9" object="true" symbol="iWorkoutApp"/>
         <entry id="8388647" module="true" symbol="UserProfile"/>
         <entry field="true" id="8388611" module="true" symbol="Toybox"/>
-        <entry field="true" id="16" symbol="&lt;globals/iWorkoutView/&lt;&gt;currentZone&gt;"/>
-        <entry field="true" id="32" symbol="AppName"/>
+        <entry field="true" id="19" symbol="&lt;globals/iWorkoutView/&lt;&gt;currentZone&gt;"/>
+        <entry field="true" id="46" symbol="AppName"/>
+        <entry field="true" id="33" symbol="id_Boxing"/>
         <entry id="8" module="true" symbol="globals/Rez/Strings"/>
         <entry id="8388772" module="true" object="true" symbol="Fonts"/>
         <entry id="8389345" symbol="rezId"/>
+        <entry field="true" id="11" symbol="&lt;globals/iWorkoutView/&lt;&gt;IMAGES&gt;"/>
+        <entry field="true" id="34" symbol="id_Burpee"/>
         <entry id="8388648" module="true" symbol="WatchUi"/>
-        <entry field="true" id="15" symbol="&lt;globals/iWorkoutView/&lt;&gt;currentExercise&gt;"/>
+        <entry field="true" id="18" symbol="&lt;globals/iWorkoutView/&lt;&gt;currentExercise&gt;"/>
         <entry id="2" module="true" symbol="globals/Rez"/>
-        <entry field="true" id="35" symbol="prompt"/>
-        <entry field="true" id="29" symbol="id_monkey"/>
+        <entry field="true" id="49" symbol="prompt"/>
+        <entry field="true" id="43" symbol="id_monkey"/>
+        <entry field="true" id="36" symbol="id_Glutebridge"/>
+        <entry field="true" id="41" symbol="id_Running"/>
         <entry id="8389124" method="true" symbol="onUpdate"/>
         <entry field="true" id="8389065" symbol="locY"/>
         <entry field="true" id="8389064" symbol="locX"/>
-        <entry id="14" method="true" symbol="checkZoneChange"/>
+        <entry id="17" method="true" symbol="checkZoneChange"/>
+        <entry field="true" id="35" symbol="id_Crunches"/>
         <entry id="8388771" module="true" object="true" symbol="Drawables"/>
         <entry id="8389348" symbol="font"/>
-        <entry id="37" symbol="item_2"/>
-        <entry id="36" symbol="item_1"/>
-        <entry id="27" module="true" symbol="Menus"/>
-        <entry id="8389275" method="true" symbol="getApp"/>
+        <entry id="51" symbol="item_2"/>
+        <entry id="50" symbol="item_1"/>
+        <entry id="31" module="true" symbol="Menus"/>
         <entry id="6" module="true" symbol="globals/Rez/Layouts"/>
-        <entry field="true" id="13" symbol="&lt;globals/iWorkoutView/&lt;&gt;_timer1&gt;"/>
+        <entry field="true" id="16" symbol="&lt;globals/iWorkoutView/&lt;&gt;_timer1&gt;"/>
         <entry id="8389122" method="true" symbol="onLayout"/>
         <entry field="true" id="8389063" symbol="identifier"/>
         <entry id="8389349" symbol="justification"/>
-        <entry field="true" id="19" symbol="&lt;globals/iWorkoutView/&lt;&gt;heartRate&gt;"/>
+        <entry field="true" id="22" symbol="&lt;globals/iWorkoutView/&lt;&gt;heartRate&gt;"/>
+        <entry field="true" id="12" symbol="&lt;globals/iWorkoutView/&lt;&gt;_bitmap&gt;"/>
         <entry id="5" module="true" symbol="globals/Rez/JsonData"/>
-        <entry field="true" id="12" symbol="&lt;globals/iWorkoutView/&lt;&gt;_hrString&gt;"/>
+        <entry field="true" id="15" symbol="&lt;globals/iWorkoutView/&lt;&gt;_hrString&gt;"/>
         <entry id="3" module="true" symbol="globals/Rez/Drawables"/>
-        <entry id="31" object="true" symbol="MainMenu"/>
-        <entry id="18" method="true" symbol="getZone"/>
+        <entry id="45" object="true" symbol="MainMenu"/>
+        <entry id="21" method="true" symbol="getZone"/>
+        <entry id="23" method="true" symbol="hideBitmap"/>
+        <entry field="true" id="13" symbol="&lt;globals/iWorkoutView/&lt;&gt;_bitmapTimer&gt;"/>
+        <entry field="true" id="40" symbol="id_Pushups"/>
         <entry id="8388644" module="true" symbol="System"/>
         <entry id="8388769" module="true" object="true" symbol="Rez"/>
-        <entry field="true" id="21" symbol="&lt;globals/iWorkoutView/&lt;&gt;previousZone&gt;"/>
+        <entry field="true" id="25" symbol="&lt;globals/iWorkoutView/&lt;&gt;previousZone&gt;"/>
         <entry id="8388640" module="true" symbol="Lang"/>
         <entry id="8390088" module="true" object="true" symbol="JsonData"/>
-        <entry field="true" id="28" symbol="LauncherIcon"/>
+        <entry field="true" id="32" symbol="LauncherIcon"/>
         <entry id="8388610" symbol="statics"/>
         <entry id="8389123" method="true" symbol="onShow"/>
         <entry id="8388643" module="true" symbol="Sensor"/>
         <entry id="8389350" module="true" symbol="globals"/>
-        <entry id="20" method="true" symbol="onSnsr"/>
+        <entry id="24" method="true" symbol="onSnsr"/>
         <entry id="8388770" module="true" object="true" symbol="Strings"/>
         <entry id="8388702" method="true" symbol="initialize"/>
-        <entry field="true" id="23" symbol="&lt;globals/iWorkoutView/&lt;&gt;totalDuration&gt;"/>
+        <entry field="true" id="27" symbol="&lt;globals/iWorkoutView/&lt;&gt;totalDuration&gt;"/>
         <entry id="8389279" method="true" symbol="onStart"/>
         <entry id="8388641" module="true" symbol="Math"/>
         <entry id="8389280" method="true" symbol="getInitialView"/>
         <entry id="8389281" method="true" symbol="onStop"/>
         <entry id="8389347" symbol="color"/>
-        <entry field="true" id="24" symbol="&lt;globals/iWorkoutView/&lt;&gt;vibeData&gt;"/>
-        <entry field="true" id="22" symbol="&lt;globals/iWorkoutView/&lt;&gt;timerValues&gt;"/>
+        <entry field="true" id="28" symbol="&lt;globals/iWorkoutView/&lt;&gt;vibeData&gt;"/>
+        <entry field="true" id="26" symbol="&lt;globals/iWorkoutView/&lt;&gt;timerValues&gt;"/>
         <entry id="8388646" module="true" object="true" symbol="Timer"/>
-        <entry field="true" id="25" symbol="&lt;globals/iWorkoutView/&lt;&gt;zoneData&gt;"/>
-        <entry id="26" module="true" symbol="Layouts"/>
+        <entry field="true" id="29" symbol="&lt;globals/iWorkoutView/&lt;&gt;zoneData&gt;"/>
+        <entry id="30" module="true" symbol="Layouts"/>
+        <entry field="true" id="39" symbol="id_Plank"/>
         <entry id="8388636" module="true" symbol="Attention"/>
+        <entry field="true" id="42" symbol="id_Squats"/>
         <entry id="4" module="true" symbol="globals/Rez/Fonts"/>
+        <entry field="true" id="38" symbol="id_Mountainclimbers"/>
         <entry id="8389125" method="true" symbol="onHide"/>
         <entry id="8388635" module="true" symbol="Application"/>
-        <entry field="true" id="34" symbol="menu_label_2"/>
-        <entry field="true" id="33" symbol="menu_label_1"/>
+        <entry field="true" id="48" symbol="menu_label_2"/>
+        <entry field="true" id="47" symbol="menu_label_1"/>
     </symbolTable>
     <localVars>
-        <entry arg="true" endPc="268435806" name="sensorInfo" stackId="1" startPc="268435676"/>
-        <entry endPc="268435968" name="i" stackId="1" startPc="268435879"/>
-        <entry endPc="268436411" name="randomFloat" stackId="1" startPc="268436132"/>
-        <entry endPc="268436411" name="scaledNumber" stackId="2" startPc="268436132"/>
-        <entry endPc="268436411" name="randomIndex" stackId="3" startPc="268436132"/>
-        <entry endPc="268436411" name="randomFloat2" stackId="4" startPc="268436132"/>
-        <entry endPc="268436411" name="scaledNumber2" stackId="5" startPc="268436132"/>
-        <entry endPc="268436411" name="randomIndex2" stackId="6" startPc="268436132"/>
-        <entry endPc="268436576" name="i" stackId="1" startPc="268436510"/>
-        <entry endPc="268436860" name="timer1" stackId="1" startPc="268436625"/>
-        <entry arg="true" endPc="268437209" name="dc" stackId="1" startPc="268436862"/>
-        <entry endPc="268437208" name="timerValue" stackId="2" startPc="268436866"/>
-        <entry endPc="268437208" name="seconds" stackId="3" startPc="268436866"/>
-        <entry endPc="268437208" name="minutes" stackId="4" startPc="268436866"/>
-        <entry endPc="268437208" name="timerString" stackId="5" startPc="268436866"/>
-        <entry endPc="268437208" name="string" stackId="6" startPc="268436866"/>
-        <entry endPc="268437304" name="view" stackId="1" startPc="268437260"/>
-        <entry arg="true" endPc="268437643" name="dc" stackId="1" startPc="268437329"/>
-        <entry endPc="268437643" name="rez_cmp_local_text_1503364961" stackId="2" startPc="268437341"/>
-        <entry endPc="268437643" name="rez_cmp_local_bitmap_id_monkey" stackId="3" startPc="268437341"/>
+        <entry endPc="268436512" name="randomFloat" stackId="1" startPc="268436110"/>
+        <entry endPc="268436512" name="scaledNumber" stackId="2" startPc="268436110"/>
+        <entry endPc="268436512" name="randomIndex" stackId="3" startPc="268436110"/>
+        <entry endPc="268436512" name="randomFloat2" stackId="4" startPc="268436110"/>
+        <entry endPc="268436512" name="scaledNumber2" stackId="5" startPc="268436110"/>
+        <entry endPc="268436512" name="randomIndex2" stackId="6" startPc="268436110"/>
+        <entry endPc="268436701" name="i" stackId="1" startPc="268436635"/>
+        <entry arg="true" endPc="268436876" name="sensorInfo" stackId="1" startPc="268436746"/>
+        <entry endPc="268437038" name="i" stackId="1" startPc="268436949"/>
+        <entry endPc="268437416" name="timer1" stackId="1" startPc="268437147"/>
+        <entry arg="true" endPc="268437891" name="dc" stackId="1" startPc="268437418"/>
+        <entry endPc="268437890" name="timerValue" stackId="2" startPc="268437422"/>
+        <entry endPc="268437890" name="seconds" stackId="3" startPc="268437422"/>
+        <entry endPc="268437890" name="minutes" stackId="4" startPc="268437422"/>
+        <entry endPc="268437890" name="timerString" stackId="5" startPc="268437422"/>
+        <entry endPc="268437890" name="string" stackId="6" startPc="268437422"/>
+        <entry endPc="268437887" name="bx" stackId="7" startPc="268437778"/>
+        <entry endPc="268437887" name="by" stackId="8" startPc="268437778"/>
+        <entry endPc="268437986" name="view" stackId="1" startPc="268437942"/>
+        <entry arg="true" endPc="268438325" name="dc" stackId="1" startPc="268438011"/>
+        <entry endPc="268438325" name="rez_cmp_local_text_1618545873" stackId="2" startPc="268438023"/>
+        <entry endPc="268438325" name="rez_cmp_local_bitmap_id_monkey" stackId="3" startPc="268438023"/>
     </localVars>
     <annotations>
         <annotationEntry annotation="initialized" class="Drawables" module="globals/Rez" symbol="LauncherIcon"/>
+        <annotationEntry annotation="initialized" class="Drawables" module="globals/Rez" symbol="id_Burpee"/>
+        <annotationEntry annotation="initialized" class="Drawables" module="globals/Rez" symbol="id_Boxing"/>
+        <annotationEntry annotation="initialized" class="Drawables" module="globals/Rez" symbol="id_Jumping"/>
+        <annotationEntry annotation="initialized" class="Drawables" module="globals/Rez" symbol="id_Glutebridge"/>
+        <annotationEntry annotation="initialized" class="Strings" module="globals/Rez" symbol="AppName"/>
+        <annotationEntry annotation="initialized" class="Drawables" module="globals/Rez" symbol="id_Pushups"/>
         <annotationEntry annotation="initialized" class="Strings" module="globals/Rez" symbol="menu_label_2"/>
         <annotationEntry annotation="initialized" class="Strings" module="globals/Rez" symbol="menu_label_1"/>
+        <annotationEntry annotation="initialized" class="Drawables" module="globals/Rez" symbol="id_Plank"/>
+        <annotationEntry annotation="initialized" class="Drawables" module="globals/Rez" symbol="id_Squats"/>
         <annotationEntry annotation="initialized" class="Strings" module="globals/Rez" symbol="prompt"/>
-        <annotationEntry annotation="initialized" class="Strings" module="globals/Rez" symbol="AppName"/>
+        <annotationEntry annotation="initialized" class="Drawables" module="globals/Rez" symbol="id_Running"/>
+        <annotationEntry annotation="initialized" class="Drawables" module="globals/Rez" symbol="id_Crunches"/>
+        <annotationEntry annotation="initialized" class="Drawables" module="globals/Rez" symbol="id_Mountainclimbers"/>
         <annotationEntry annotation="initialized" class="Drawables" module="globals/Rez" symbol="id_monkey"/>
     </annotations>
     <dataEntryOffsetMappings>
         <dataEntry label="globals" offset="87" parentId="" symbolId="globals" type="module"/>
-        <dataEntry label="globals/iWorkoutView" offset="158" parentId="globals" symbolId="iWorkoutView" type="class"/>
-        <dataEntry label="globals/Rez" offset="365" parentId="globals" symbolId="Rez" type="module"/>
-        <dataEntry label="globals/iWorkoutApp" offset="444" parentId="globals" symbolId="iWorkoutApp" type="class"/>
-        <dataEntry label="globals/Rez/Drawables" offset="515" parentId="Rez" symbolId="Drawables" type="module"/>
-        <dataEntry label="globals/Rez/Layouts" offset="562" parentId="Rez" symbolId="Layouts" type="module"/>
-        <dataEntry label="globals/Rez/Menus" offset="601" parentId="Rez" symbolId="Menus" type="module"/>
-        <dataEntry label="globals/Rez/Fonts" offset="640" parentId="Rez" symbolId="Fonts" type="module"/>
-        <dataEntry label="globals/Rez/Strings" offset="671" parentId="Rez" symbolId="Strings" type="module"/>
-        <dataEntry label="globals/Rez/JsonData" offset="734" parentId="Rez" symbolId="JsonData" type="module"/>
-        <dataEntry label="globals/Rez/Menus/MainMenu" offset="765" parentId="Menus" symbolId="MainMenu" type="class"/>
+        <dataEntry label="globals/iWorkoutView" offset="150" parentId="globals" symbolId="iWorkoutView" type="class"/>
+        <dataEntry label="globals/Rez" offset="389" parentId="globals" symbolId="Rez" type="module"/>
+        <dataEntry label="globals/iWorkoutApp" offset="468" parentId="globals" symbolId="iWorkoutApp" type="class"/>
+        <dataEntry label="globals/Rez/Drawables" offset="539" parentId="Rez" symbolId="Drawables" type="module"/>
+        <dataEntry label="globals/Rez/Layouts" offset="666" parentId="Rez" symbolId="Layouts" type="module"/>
+        <dataEntry label="globals/Rez/Menus" offset="705" parentId="Rez" symbolId="Menus" type="module"/>
+        <dataEntry label="globals/Rez/Fonts" offset="744" parentId="Rez" symbolId="Fonts" type="module"/>
+        <dataEntry label="globals/Rez/Strings" offset="775" parentId="Rez" symbolId="Strings" type="module"/>
+        <dataEntry label="globals/Rez/JsonData" offset="838" parentId="Rez" symbolId="JsonData" type="module"/>
+        <dataEntry label="globals/Rez/Menus/MainMenu" offset="869" parentId="Menus" symbolId="MainMenu" type="class"/>
     </dataEntryOffsetMappings>
     <functions>
-        <functionEntry accessMode="public" endPc="268435485" name="getApp" startPc="268435460">
+        <functionEntry accessMode="public" endPc="268436022" name="&lt;init&gt;" parent="iWorkoutView" startPc="268435460">
             <documentation/>
         </functionEntry>
-        <functionEntry accessMode="public" endPc="268435675" name="&lt;init&gt;" parent="iWorkoutView" startPc="268435486">
+        <functionEntry accessMode="public" endPc="268436050" name="hideBitmap" parent="iWorkoutView" startPc="268436023">
             <documentation/>
         </functionEntry>
-        <functionEntry accessMode="public" name="onShow" parent="iWorkoutView">
+        <functionEntry accessMode="public" endPc="268436575" name="callback1" parent="iWorkoutView" startPc="268436051">
             <documentation/>
         </functionEntry>
-        <functionEntry accessMode="public" endPc="268435806" name="onSnsr" parent="iWorkoutView" startPc="268435676">
-            <param id="sensorInfo"/>
-            <documentation/>
-        </functionEntry>
-        <functionEntry accessMode="public" endPc="268435809" name="onLayout" parent="iWorkoutView" startPc="268435807">
-            <param id="dc"/>
-            <documentation/>
-        </functionEntry>
-        <functionEntry accessMode="public" endPc="268436072" name="getZone" parent="iWorkoutView" startPc="268435810">
-            <documentation/>
-        </functionEntry>
-        <functionEntry accessMode="public" endPc="268436450" name="callback1" parent="iWorkoutView" startPc="268436073">
-            <documentation/>
-        </functionEntry>
-        <functionEntry accessMode="public" endPc="268436620" name="checkZoneChange" parent="iWorkoutView" startPc="268436451">
-            <documentation/>
-        </functionEntry>
-        <functionEntry accessMode="public" endPc="268436861" name="initialize" parent="iWorkoutView" startPc="268436621">
+        <functionEntry accessMode="public" endPc="268436745" name="checkZoneChange" parent="iWorkoutView" startPc="268436576">
             <documentation/>
         </functionEntry>
         <functionEntry accessMode="public" name="onHide" parent="iWorkoutView">
             <documentation/>
         </functionEntry>
-        <functionEntry accessMode="public" endPc="268437209" name="onUpdate" parent="iWorkoutView" startPc="268436862">
+        <functionEntry accessMode="public" name="onShow" parent="iWorkoutView">
+            <documentation/>
+        </functionEntry>
+        <functionEntry accessMode="public" endPc="268436876" name="onSnsr" parent="iWorkoutView" startPc="268436746">
+            <param id="sensorInfo"/>
+            <documentation/>
+        </functionEntry>
+        <functionEntry accessMode="public" endPc="268436879" name="onLayout" parent="iWorkoutView" startPc="268436877">
             <param id="dc"/>
             <documentation/>
         </functionEntry>
-        <functionEntry accessMode="public" endPc="268437233" name="&lt;init&gt;" parent="Rez" startPc="268437210">
+        <functionEntry accessMode="public" endPc="268437142" name="getZone" parent="iWorkoutView" startPc="268436880">
             <documentation/>
         </functionEntry>
-        <functionEntry accessMode="public" endPc="268437252" name="&lt;init&gt;" parent="iWorkoutApp" startPc="268437234">
+        <functionEntry accessMode="public" endPc="268437417" name="initialize" parent="iWorkoutView" startPc="268437143">
             <documentation/>
         </functionEntry>
-        <functionEntry accessMode="public" endPc="268437255" name="onStart" parent="iWorkoutApp" startPc="268437253">
+        <functionEntry accessMode="public" endPc="268437891" name="onUpdate" parent="iWorkoutView" startPc="268437418">
+            <param id="dc"/>
+            <documentation/>
+        </functionEntry>
+        <functionEntry accessMode="public" endPc="268437915" name="&lt;init&gt;" parent="Rez" startPc="268437892">
+            <documentation/>
+        </functionEntry>
+        <functionEntry accessMode="public" endPc="268437934" name="&lt;init&gt;" parent="iWorkoutApp" startPc="268437916">
+            <documentation/>
+        </functionEntry>
+        <functionEntry accessMode="public" endPc="268437937" name="onStart" parent="iWorkoutApp" startPc="268437935">
             <param id="state"/>
             <documentation/>
         </functionEntry>
-        <functionEntry accessMode="public" endPc="268437304" name="getInitialView" parent="iWorkoutApp" startPc="268437256">
+        <functionEntry accessMode="public" endPc="268437986" name="getInitialView" parent="iWorkoutApp" startPc="268437938">
             <documentation/>
         </functionEntry>
-        <functionEntry accessMode="public" endPc="268437325" name="initialize" parent="iWorkoutApp" startPc="268437305">
+        <functionEntry accessMode="public" endPc="268438007" name="initialize" parent="iWorkoutApp" startPc="268437987">
             <documentation/>
         </functionEntry>
-        <functionEntry accessMode="public" endPc="268437328" name="onStop" parent="iWorkoutApp" startPc="268437326">
+        <functionEntry accessMode="public" endPc="268438010" name="onStop" parent="iWorkoutApp" startPc="268438008">
             <param id="state"/>
             <documentation/>
         </functionEntry>
@@ -288,14 +325,14 @@
         <functionEntry accessMode="public" name="&lt;init&gt;" parent="JsonData">
             <documentation/>
         </functionEntry>
-        <functionEntry accessMode="public" endPc="268437643" name="MainLayout" parent="Layouts" startPc="268437329">
+        <functionEntry accessMode="public" endPc="268438325" name="MainLayout" parent="Layouts" startPc="268438011">
             <param id="dc"/>
             <documentation/>
         </functionEntry>
-        <functionEntry accessMode="public" endPc="268437662" name="&lt;init&gt;" parent="MainMenu" startPc="268437644">
+        <functionEntry accessMode="public" endPc="268438344" name="&lt;init&gt;" parent="MainMenu" startPc="268438326">
             <documentation/>
         </functionEntry>
-        <functionEntry accessMode="public" endPc="268437795" name="initialize" parent="MainMenu" startPc="268437663">
+        <functionEntry accessMode="public" endPc="268438477" name="initialize" parent="MainMenu" startPc="268438345">
             <documentation/>
         </functionEntry>
     </functions>

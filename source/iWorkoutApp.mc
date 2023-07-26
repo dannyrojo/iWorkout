@@ -26,7 +26,3 @@ class iWorkoutApp extends Application.AppBase {
     }
 
 }
-
-function getApp() as iWorkoutApp {
-    return Application.getApp() as iWorkoutApp;
-}

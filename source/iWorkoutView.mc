@@ -21,21 +21,40 @@ class iWorkoutView extends WatchUi.View {
     private var currentZone as Number = 0;
     private var previousZone as Number = 0;
     private var heartRate as Number = 0;
-    
-    //CREATE INDEX: TIMERVALUES
-    private var timerValues as Array<Number> = [60, 90, 120, 180];
+    private var _bitmap as BitmapResource?;
+    private var _bitmapTimer as Timer.Timer?;
+
+   
+    //CREATE INDEX: TIMERVALUES IN SECONDS
+    private var timerValues as Array<Number> = [30, 60, 90, 120];
 
     //CREATE INDEX: EXERCISES
     private var exerciseType as Array<String> = [
         "Run in Place",
-        "Jumping Jack",
-        "Crunch",
+        "Jumping Jacks",
+        "Shadow Box",
+        "Burpee",
+        "Crunches",
+        "Glute Bridge",
         "Plank",
-        "Push-up",
-        "Squat",
-        "Bicycles"
+        "Push Ups",
+        "Mountain Climbers",
+        "Squats",
     ];
     
+    //CREATE INDEX: BITMAPS
+    private const IMAGES = [$.Rez.Drawables.id_Running,
+                            $.Rez.Drawables.id_Jumping,
+                            $.Rez.Drawables.id_Boxing,
+                            $.Rez.Drawables.id_Burpee,
+                            $.Rez.Drawables.id_Crunches,
+                            $.Rez.Drawables.id_Glutebridge,
+                            $.Rez.Drawables.id_Plank,
+                            $.Rez.Drawables.id_Pushups,
+                            $.Rez.Drawables.id_Mountainclimbers,
+                            $.Rez.Drawables.id_Squats,
+                            ] as Array<Symbol>;
+
     //TIMER CALLBACK
     public function callback1() as Void {
         //IF THE COUNTDOWN ENDS
@@ -55,7 +74,7 @@ class iWorkoutView extends WatchUi.View {
                 var randomFloat = Math.rand();
                 var scaledNumber = 0 + randomFloat / (0x7FFFFFFF / (timerValues.size()) - 0 + 1 + 1);
                 var randomIndex = Math.round(scaledNumber);
-                
+                System.println("i1 = " + randomIndex);
                 //SET THE TIMER VALUE FOR THIS ITERATION
                 _count1 = timerValues[randomIndex];
                 
@@ -66,15 +85,19 @@ class iWorkoutView extends WatchUi.View {
                 var randomFloat2 = Math.rand();
                 var scaledNumber2 = 0 + randomFloat2 / (0x7FFFFFFF / (exerciseType.size()) - 0 + 1 + 1);
                 var randomIndex2 = Math.round(scaledNumber2);
-                
+                System.println("i2 = " + randomIndex2);
                 //AND SET THE CURRENT EXERCISE FOR THIS ITERATION
                 currentExercise = exerciseType[randomIndex2];
-                
+
+                //ASSIGN AND DRAW THE BITMAP
+                _bitmap = WatchUi.loadResource(IMAGES[randomIndex2]) as BitmapResource;
+                _bitmapTimer.start(method(:hideBitmap), 5000, false); 
+
                 //START THE TIMER THE TIMER UP AGAIN
                 _timer1.start(method(:callback1), 1000, true);} 
                 
                 //DEBUGGING
-                //System.println(randomIndex);
+                System.println(currentExercise);
                 //System.println(totalDuration);
                 
         //AND IF THE COUNTDOWN IS STILL GOING
@@ -146,6 +169,12 @@ class iWorkoutView extends WatchUi.View {
 	    previousZone = currentZone;
         }
     }
+
+    //BITMAP HIDE FUNCTION
+    public function hideBitmap() as Void {
+        _bitmap = null;
+        WatchUi.requestUpdate();
+    }
     
     //INITALIZE
     function initialize() {
@@ -155,7 +184,7 @@ class iWorkoutView extends WatchUi.View {
         _hrString = "---bpm";  
         currentExercise = "Get Ready!";
 
-        //INITIALIZE SUPERCLASS
+        //INITIALIZE VIEW
         View.initialize();
        
         //GET HEARTRATE ZONES
@@ -166,10 +195,12 @@ class iWorkoutView extends WatchUi.View {
         Sensor.setEnabledSensors([Sensor.SENSOR_HEARTRATE] as Array<SensorType>);
         Sensor.enableSensorEvents(method(:onSnsr));
 
-        //START THE TIMER
+        //START THE TIMER(S)
         var timer1 = new Timer.Timer();
         timer1.start(method(:callback1), 1000, true);
         _timer1 = timer1;
+
+        _bitmapTimer = new Timer.Timer();
 
     }
 
@@ -211,6 +242,19 @@ class iWorkoutView extends WatchUi.View {
         //DRAW THE CURRENT EXERCISE STRING
         dc.setColor(Graphics.COLOR_WHITE, Graphics.COLOR_TRANSPARENT);
         dc.drawText(dc.getWidth()/2, 60, Graphics.FONT_LARGE, currentExercise, Graphics.TEXT_JUSTIFY_CENTER);
+
+        //ASSIGN BITMAP VARIABLE
+        //_bitmap = WatchUi.loadResource(IMAGES[0]) as BitmapResource;
+
+        //DRAW THE BITMAP
+        if (_bitmap != null){
+        //DEFINE BITMAP POSITION    
+        var bx = (dc.getWidth()/2) - (_bitmap.getWidth()/2);
+        var by = (dc.getHeight()/2) - (_bitmap.getHeight()/2);
+        //AND DRAW    
+        dc.drawBitmap(bx, by, _bitmap);}
+
+        
 
     }
  

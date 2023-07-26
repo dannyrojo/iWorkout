@@ -43,3 +43,5 @@ Update Log:
 PARTii: Now it randomly cycles through exercises with a random duration for each.  Achievements:  Learned how to incoporate rand() into MonkeyC, including a scrappy limiter for the numbers (thanks FlowState: https://forums.garmin.com/developer/connect-iq/f/discussion/3673/creating-a-random-number#pifragment-1298=2).  Up Next:  Layout changes (graphics, animations, splash screens, etc).  Vibrate Indicator for Heart Rate Zones.  And later, testing menu coordination and input behavior.
 
 7/24/23:  Added a zone detector and a vibration function.  Achievements:  Incorporating for loops for sleeker code.  Next Steps:  Look at cleaning up the code further and making it more compact and modular.  Animations, graphics, and menus!
+
+7/26/23:  Added graphics.   After hours of coding animations, discovered that my device is incompatiable with an animation layer despite the reference documentation! Yay!  However, Achievements Unlocked:  Introduced to global and project level variables in SDK.  GIMP and FFMPEG as asset tools.  Other resource management.  Next steps:  Add settings and clean up code!
